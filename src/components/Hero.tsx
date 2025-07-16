@@ -31,14 +31,14 @@ const Hero = () => {
           {/* Content */}
           <div className="text-center lg:text-left space-y-8 animate-fade-in">
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-nepveda-green-dark leading-tight">
-                Holistic
-                <span className="block text-nepveda-green">Wellness</span>
-                <span className="block text-nepveda-earth text-4xl md:text-5xl lg:text-6xl">Journey</span>
-              </h1>
-              <p className="text-xl md:text-2xl text-nepveda-green-dark/80 max-w-2xl">
-                Discover the ancient wisdom of Ayurveda with certified holistic health coaching for your complete well-being
-              </p>
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-nepveda-green-dark leading-tight">
+                  Reclaim your
+                  <span className="block text-nepveda-green">Mind, Body,</span>
+                  <span className="block text-nepveda-earth text-4xl md:text-5xl lg:text-6xl">and Breath!</span>
+                </h1>
+                <p className="text-xl md:text-2xl text-nepveda-green-dark/80 max-w-2xl">
+                  Nepveda helps you not only heal but understand how to stay healthy — in a way that's tailored just for you.
+                </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -46,15 +46,15 @@ const Hero = () => {
                 onClick={scrollToContact}
                 className="bg-nepveda-green hover:bg-nepveda-green-dark text-white px-8 py-6 text-lg rounded-full transition-all duration-300 shadow-lg hover:shadow-xl group"
               >
-                Start Your Journey
+                Book a Consultation
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
                 variant="outline"
-                onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
+                onClick={() => window.open('https://wa.me/9779818158848', '_blank')}
                 className="border-2 border-nepveda-green text-nepveda-green hover:bg-nepveda-green hover:text-white px-8 py-6 text-lg rounded-full transition-all duration-300"
               >
-                Learn More
+                Message on WhatsApp
               </Button>
             </div>
 

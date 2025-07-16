@@ -8,50 +8,20 @@ const Services = () => {
     {
       icon: Stethoscope,
       title: "Ayurvedic Consultation",
-      description: "Comprehensive health assessment based on your unique constitution (Prakriti) and current imbalances (Vikriti)",
-      features: ["Detailed health analysis", "Personalized treatment plan", "Dosha assessment", "Lifestyle recommendations"],
-      duration: "60-90 minutes",
-      price: "₹2,500"
+      description: "Discover your dosha, imbalances, and path to wellness with our holistic Ayurvedic coach, traditional vaidya, or medical doctor.",
+      features: ["Deep consultation, not cookie-cutter diagnosis", "Personalized for your body and lifestyle", "Dosha assessment", "Comprehensive health analysis"]
     },
     {
       icon: Leaf,
-      title: "Panchakarma Therapy",
-      description: "Traditional detoxification and rejuvenation therapies to restore balance and eliminate toxins",
-      features: ["Abhyanga (oil massage)", "Shirodhara", "Nasya therapy", "Customized cleansing protocols"],
-      duration: "Multiple sessions",
-      price: "₹5,000 onwards"
-    },
-    {
-      icon: Utensils,
-      title: "Ayurvedic Nutrition",
-      description: "Personalized dietary plans based on your constitution, digestive fire (Agni), and health goals",
-      features: ["Constitutional diet planning", "Seasonal meal guidance", "Digestive health optimization", "Recipe suggestions"],
-      duration: "45 minutes",
-      price: "₹1,800"
+      title: "Therapeutic Massages",
+      description: "Experience healing through Abhyanga, Udvartana, and other treatments to ease pain, detoxify, and restore vitality.",
+      features: ["Abhyanga (oil massage)", "Udvartana therapy", "Pain relief treatments", "Detoxification and vitality restoration"]
     },
     {
       icon: Brain,
-      title: "Stress Management",
-      description: "Holistic approaches to manage stress, anxiety, and promote mental well-being through Ayurvedic practices",
-      features: ["Meditation guidance", "Breathing techniques", "Herbal support", "Lifestyle modifications"],
-      duration: "60 minutes",
-      price: "₹2,000"
-    },
-    {
-      icon: Dumbbell,
-      title: "Wellness Coaching",
-      description: "Comprehensive lifestyle coaching to integrate Ayurvedic principles into your daily routine",
-      features: ["Daily routine planning", "Exercise recommendations", "Habit formation", "Regular follow-ups"],
-      duration: "45 minutes",
-      price: "₹1,500"
-    },
-    {
-      icon: Moon,
-      title: "Women's Health",
-      description: "Specialized Ayurvedic care for women's health concerns including hormonal balance and reproductive wellness",
-      features: ["Menstrual health", "Fertility support", "Menopause guidance", "Hormonal balance"],
-      duration: "75 minutes",
-      price: "₹2,800"
+      title: "Yoga & Breathwork",
+      description: "Gentle, one-on-one guidance to balance your mind and body using ancient techniques matched to your constitution.",
+      features: ["One-on-one guidance", "Constitutional matching", "Mind-body balance", "Ancient breathing techniques"]
     }
   ];
 
@@ -69,15 +39,15 @@ const Services = () => {
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-nepveda-green-dark mb-6">
-              Our Services
+              Our Signature Services
             </h2>
             <p className="text-xl text-nepveda-green-dark/80 max-w-3xl mx-auto">
-              Comprehensive Ayurvedic treatments and holistic health coaching tailored to your unique needs
+              Deeply personalized guidance using ancient knowledge, modern care, and natural healing
             </p>
           </div>
 
           {/* Services Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
             {services.map((service, index) => (
               <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white hover:-translate-y-2 group">
                 <CardHeader className="text-center pb-4">
@@ -89,7 +59,7 @@ const Services = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <p className="text-nepveda-green-dark/80 text-sm leading-relaxed">
+                  <p className="text-nepveda-green-dark/80 leading-relaxed">
                     {service.description}
                   </p>
                   
@@ -101,17 +71,6 @@ const Services = () => {
                       </li>
                     ))}
                   </ul>
-
-                  <div className="border-t border-nepveda-sage/30 pt-4 space-y-2">
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-nepveda-green-dark/70">Duration:</span>
-                      <span className="text-sm font-medium text-nepveda-green">{service.duration}</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-nepveda-green-dark/70">Starting from:</span>
-                      <span className="text-lg font-bold text-nepveda-green">{service.price}</span>
-                    </div>
-                  </div>
 
                   <Button 
                     onClick={scrollToContact}

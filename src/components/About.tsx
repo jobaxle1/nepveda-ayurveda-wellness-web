@@ -33,10 +33,10 @@ const About = () => {
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-nepveda-green-dark mb-6">
-              About NEPVEDA
+              About Nepveda
             </h2>
             <p className="text-xl text-nepveda-green-dark/80 max-w-3xl mx-auto">
-              Founded on the principles of authentic Ayurveda, NEPVEDA bridges ancient wisdom with modern wellness needs
+              At Nepveda, we believe that true wellness begins with understanding.
             </p>
           </div>
 
@@ -49,19 +49,20 @@ const About = () => {
                 </h3>
                 <div className="space-y-4 text-nepveda-green-dark/80 text-lg leading-relaxed">
                   <p>
+                    Led by Ayurvedic health coach Shailja Pradhan, our clinic offers deeply personalized 
+                    guidance using ancient knowledge, modern care, and natural healing. We exist to help 
+                    you become healthy — and stay healthy — in a way that aligns with your unique life and body.
+                  </p>
+                  <p>
                     With deep-rooted passion for holistic healing, I am a certified Holistic Health Coach 
                     trained in the traditional practices of Kerala Ayurveda. My journey began with a 
                     personal transformation through Ayurvedic principles, which led me to dedicate my 
                     life to helping others achieve optimal wellness.
                   </p>
                   <p>
-                    At NEPVEDA, we believe that true health encompasses not just the absence of disease, 
-                    but a state of complete physical, mental, and spiritual well-being. Every consultation 
-                    is personalized to your unique constitution (Prakriti) and current state of balance.
-                  </p>
-                  <p>
-                    My approach combines time-tested Ayurvedic therapies with modern lifestyle guidance, 
-                    ensuring that ancient wisdom seamlessly integrates into your contemporary life.
+                    At Nepveda, we believe that true health encompasses not just the absence of disease, 
+                    but a state of complete physical, mental, and spiritual well-being rooted in Nepalese 
+                    Ayurveda traditions.
                   </p>
                 </div>
               </div>

@@ -94,8 +94,8 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-nepveda-yellow" />
-                <a href="tel:+919876543210" className="text-nepveda-cream/80 hover:text-nepveda-yellow transition-colors">
-                  +91 98765 43210
+                <a href="https://wa.me/9779818158848" className="text-nepveda-cream/80 hover:text-nepveda-yellow transition-colors">
+                  9818158848
                 </a>
               </div>
               <div className="flex items-center space-x-3">
@@ -107,7 +107,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-nepveda-yellow" />
                 <span className="text-nepveda-cream/80">
-                  Mumbai, Maharashtra
+                  Thapathali, Kathmandu
                 </span>
               </div>
             </div>
