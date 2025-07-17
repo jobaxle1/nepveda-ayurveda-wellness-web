@@ -16,15 +16,15 @@ const WhyNepveda = () => {
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-7xl mx-auto">
-          {/* Header */}
-          <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Why Nepveda?
-            </h2>
-          </div>
-
-          {/* Bullet Points - Right Side with More Margin */}
+          {/* Bullet Points - Right Side with Header */}
           <div className="w-1/2 ml-auto pl-8">
+            {/* Header centered within the text area */}
+            <div className="text-center mb-16 animate-fade-in">
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+                Why Nepveda?
+              </h2>
+            </div>
+            
             <ul className="space-y-6">
               {bulletPoints.map((point, index) => (
                 <li key={index} className="flex items-start">
