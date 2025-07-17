@@ -2,6 +2,21 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const About = () => {
+  const teamMembers = [
+    {
+      name: "Vaidya Madhu Bajracharya",
+      title: "Traditional Vaidya",
+      image: "/lovable-uploads/624c2bd5-cfa0-4457-94a8-1072347aebbc.png",
+      description: "Experience the wisdom of classical Nepali Ayurveda with an experienced Vaidya possessing generational knowledge, who uses time-tested herbal medicines and therapies to address the root cause of your disease and restore health."
+    },
+    {
+      name: "Dr. Hari Sharan Aryal",
+      title: "MD, Internal Medicine (Ayurveda), Anorectal expert",
+      image: "/lovable-uploads/39fdac97-87a6-4919-8a0c-dd50c9422eef.png",
+      description: "Get expert medical insight from one of Nepal's best Ayurvedic doctors, who blends ancient diagnostics with modern tools to offer safe, personalized treatment for chronic and complex conditions."
+    }
+  ];
+
   return (
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,53 +31,42 @@ const About = () => {
             </p>
           </div>
 
-          {/* Team Member Card */}
-          <div className="max-w-4xl mx-auto">
-            <Card className="border-0 shadow-2xl overflow-hidden bg-gradient-to-br from-nepveda-cream via-white to-nepveda-cream/70">
-              <CardContent className="p-0">
-                <div className="grid lg:grid-cols-2 gap-0">
-                  {/* Image Section */}
-                  <div className="relative">
-                    <div className="aspect-square lg:aspect-auto lg:h-full bg-gradient-to-br from-nepveda-green/20 to-nepveda-green-light/30 flex items-center justify-center p-8">
-                      <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-nepveda-green/30 shadow-xl">
-                        <img 
-                          src="/lovable-uploads/624c2bd5-cfa0-4457-94a8-1072347aebbc.png"
-                          alt="Vaidya Madhu Bajracharya"
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
+          {/* Team Members Grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 w-full">
+            {teamMembers.map((member, index) => (
+              <Card key={index} className="border-0 shadow-xl overflow-hidden bg-gradient-to-br from-nepveda-cream via-white to-nepveda-cream/70 h-full">
+                <CardContent className="p-8 text-center h-full flex flex-col">
+                  {/* Profile Image */}
+                  <div className="mb-6">
+                    <div className="relative w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-nepveda-green/30 shadow-lg">
+                      <img 
+                        src={member.image}
+                        alt={member.name}
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                   </div>
                   
-                  {/* Content Section */}
-                  <div className="p-8 lg:p-12 flex flex-col justify-center">
-                    <div className="space-y-6">
-                      <div>
-                        <h3 className="text-3xl lg:text-4xl font-bold text-nepveda-green-dark mb-2">
-                          Vaidya Madhu Bajracharya
-                        </h3>
-                        <p className="text-xl text-nepveda-green font-semibold">
-                          Traditional Vaidya
-                        </p>
-                      </div>
-                      
-                      <div className="w-20 h-1 bg-gradient-to-r from-nepveda-green to-nepveda-green-light rounded-full"></div>
-                      
-                      <p className="text-lg text-nepveda-green-dark/80 leading-relaxed">
-                        Experience the wisdom of classical Nepali Ayurveda with an experienced Vaidya possessing generational knowledge, who uses time-tested herbal medicines and therapies to address the root cause of your disease and restore health.
-                      </p>
-                      
-                      {/* Decorative Element */}
-                      <div className="flex items-center space-x-2 pt-4">
-                        <div className="w-2 h-2 bg-nepveda-green rounded-full"></div>
-                        <div className="w-4 h-1 bg-nepveda-green-light rounded-full"></div>
-                        <div className="w-2 h-2 bg-nepveda-green/60 rounded-full"></div>
-                      </div>
-                    </div>
+                  {/* Name and Title */}
+                  <div className="mb-4">
+                    <h3 className="text-2xl lg:text-3xl font-bold text-nepveda-green-dark mb-2">
+                      {member.name}
+                    </h3>
+                    <p className="text-lg text-nepveda-green font-semibold">
+                      {member.title}
+                    </p>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
+                  
+                  {/* Decorative Line */}
+                  <div className="w-16 h-1 bg-gradient-to-r from-nepveda-green to-nepveda-green-light rounded-full mx-auto mb-4"></div>
+                  
+                  {/* Description */}
+                  <p className="text-base text-nepveda-green-dark/80 leading-relaxed flex-grow italic">
+                    "{member.description}"
+                  </p>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </div>
