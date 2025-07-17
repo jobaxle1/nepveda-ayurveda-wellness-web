@@ -7,20 +7,20 @@ const PhotoCarousel = () => {
   
   const images = [
     {
-      src: "/lovable-uploads/a227e5ac-02bc-4546-869c-e9a1711f4145.png",
-      alt: "Ayurvedic practitioner preparing herbs"
+      src: "/lovable-uploads/e4803de9-7595-4f29-b8d1-a6d6d3515a2f.png",
+      alt: "Ayurvedic massage therapy with candles"
     },
     {
-      src: "/lovable-uploads/c3057a06-20c3-4197-aacb-f3c48307baa5.png", 
-      alt: "Ayurvedic massage therapy session"
+      src: "/lovable-uploads/fc9529df-d1fe-42c8-ae44-6633a257ccbb.png", 
+      alt: "Foot bath with rose petals"
     },
     {
-      src: "/lovable-uploads/82cb0405-adf7-4c6b-b257-60a3cab0eeb0.png",
-      alt: "Traditional herbal preparation"
+      src: "/lovable-uploads/5255ffdb-5261-4483-bfc5-1a2efcce59be.png",
+      alt: "Shirodhara oil treatment"
     },
     {
-      src: "/lovable-uploads/a1055ba7-e2d2-4aac-a62c-30e2aa30c411.png",
-      alt: "NEPVEDA clinic exterior"
+      src: "/lovable-uploads/b5763403-da42-42be-8dda-3a56d916bb49.png",
+      alt: "Traditional Ayurvedic herbs and tools"
     }
   ];
 
@@ -34,8 +34,8 @@ const PhotoCarousel = () => {
 
   return (
     <div className="relative w-full bg-nepveda-cream/50 py-4">
-      <div className="container mx-auto px-4">
-        <div className="relative max-w-4xl mx-auto">
+      <div className="w-full">
+        <div className="relative w-full">
           <div className="relative overflow-hidden rounded-2xl shadow-xl">
             <div className="aspect-[16/9] w-full">
               <img
