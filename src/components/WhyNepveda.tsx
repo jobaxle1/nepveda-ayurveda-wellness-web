@@ -20,7 +20,7 @@ const WhyNepveda = () => {
           <div className="w-1/2 ml-auto pl-8">
             {/* Header centered within the text area */}
             <div className="text-center mb-16 animate-fade-in">
-              <h2 className="text-4xl md:text-5xl font-bold text-nepveda-green mb-6">
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
                 Why Nepveda?
               </h2>
             </div>
@@ -28,8 +28,8 @@ const WhyNepveda = () => {
             <ul className="space-y-6">
               {bulletPoints.map((point, index) => (
                 <li key={index} className="flex items-start">
-                  <span className="text-nepveda-green text-2xl mr-4">•</span>
-                  <span className="text-xl text-nepveda-green font-medium leading-relaxed">
+                  <span className="text-white text-2xl mr-4">•</span>
+                  <span className="text-xl text-white font-medium leading-relaxed">
                     {point}
                   </span>
                 </li>
