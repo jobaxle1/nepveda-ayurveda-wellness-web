@@ -11,7 +11,7 @@ const About = () => {
     },
     {
       name: "Shailja Pradhan",
-      title: "Certified Ayurvedic Health Coach, Kerala Ayurveda Certification",
+      title: "Holistic Ayurvedic Coach",
       image: "/lovable-uploads/fc289f4b-a751-446e-a18e-6e26f2ce470f.png",
       description: "Discover balance and vitality through personalized guidance on diet, lifestyle, and emotional well-being with a passionate health coach who empowers individuals to claim their health naturally using the ancient science of Ayurveda."
     },
