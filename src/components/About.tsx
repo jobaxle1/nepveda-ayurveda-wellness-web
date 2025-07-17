@@ -4,16 +4,22 @@ import { Card, CardContent } from "@/components/ui/card";
 const About = () => {
   const teamMembers = [
     {
-      name: "Vaidya Madhu Bajracharya",
-      title: "Traditional Vaidya",
-      image: "/lovable-uploads/624c2bd5-cfa0-4457-94a8-1072347aebbc.png",
-      description: "Experience the wisdom of classical Nepali Ayurveda with an experienced Vaidya possessing generational knowledge, who uses time-tested herbal medicines and therapies to address the root cause of your disease and restore health."
-    },
-    {
       name: "Dr. Hari Sharan Aryal",
       title: "MD, Internal Medicine (Ayurveda), Anorectal expert",
       image: "/lovable-uploads/39fdac97-87a6-4919-8a0c-dd50c9422eef.png",
       description: "Get expert medical insight from one of Nepal's best Ayurvedic doctors, who blends ancient diagnostics with modern tools to offer safe, personalized treatment for chronic and complex conditions."
+    },
+    {
+      name: "Shailja Pradhan",
+      title: "Certified Ayurvedic Health Coach, Kerala Ayurveda Certification",
+      image: "/lovable-uploads/fc289f4b-a751-446e-a18e-6e26f2ce470f.png",
+      description: "Discover balance and vitality through personalized guidance on diet, lifestyle, and emotional well-being with a passionate health coach who empowers individuals to claim their health naturally using the ancient science of Ayurveda."
+    },
+    {
+      name: "Vaidya Madhu Bajracharya",
+      title: "Traditional Vaidya",
+      image: "/lovable-uploads/624c2bd5-cfa0-4457-94a8-1072347aebbc.png",
+      description: "Experience the wisdom of classical Nepali Ayurveda with an experienced Vaidya possessing generational knowledge, who uses time-tested herbal medicines and therapies to address the root cause of your disease and restore health."
     }
   ];
 
@@ -32,7 +38,7 @@ const About = () => {
           </div>
 
           {/* Team Members Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 w-full">
+          <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-8 w-full">
             {teamMembers.map((member, index) => (
               <Card key={index} className="border-0 shadow-xl overflow-hidden bg-gradient-to-br from-nepveda-cream via-white to-nepveda-cream/70 h-full">
                 <CardContent className="p-8 text-center h-full flex flex-col">
