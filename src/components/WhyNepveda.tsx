@@ -1,66 +1,40 @@
-import { Leaf, FileText, Globe, Heart, Sparkles } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
-
 const WhyNepveda = () => {
-  const reasons = [
-    {
-      icon: Leaf,
-      title: "100% personalized for your body and lifestyle",
-      description: "Every treatment plan is tailored specifically to your unique constitution and life circumstances"
-    },
-    {
-      icon: FileText,
-      title: "Deep consultation, not cookie-cutter diagnosis",
-      description: "We take time to truly understand your health concerns and root causes"
-    },
-    {
-      icon: Globe,
-      title: "Rooted in Nepalese Ayurveda traditions",
-      description: "Authentic practices passed down through generations of traditional healers"
-    },
-    {
-      icon: Heart,
-      title: "Led by an experienced, caring coach",
-      description: "Shailja Pradhan brings years of expertise with genuine compassion for healing"
-    },
-    {
-      icon: Sparkles,
-      title: "Designed to feel premium, serene, and private",
-      description: "A peaceful, confidential environment where you can focus on your wellness journey"
-    }
+  const bulletPoints = [
+    "Completely personalized for your body and lifestyle",
+    "Led by an experienced, and caring Ayurvedic coach", 
+    "Designed to feel premium, serene, and private",
+    "Rooted in 5000 years of Ayurvedic knowledge"
   ];
 
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section 
+      className="py-20 bg-cover bg-center bg-no-repeat relative"
+      style={{ backgroundImage: "url('/lovable-uploads/1192b713-b50e-46a5-9a6f-989de6d3a5a9.png')" }}
+    >
+      {/* Background overlay for better text readability */}
+      <div className="absolute inset-0 bg-black/30"></div>
+      
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold text-nepveda-green-dark mb-6">
+          <div className="text-left mb-16 animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Why Nepveda?
             </h2>
-            <p className="text-xl text-nepveda-green-dark/80 max-w-3xl mx-auto">
-              Experience the difference of truly personalized Ayurvedic care
-            </p>
           </div>
 
-          {/* Reasons Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {reasons.map((reason, index) => (
-              <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-white to-nepveda-cream/30 hover:-translate-y-1 group">
-                <CardContent className="p-6 text-center">
-                  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-nepveda-green to-nepveda-green-light rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <reason.icon className="w-8 h-8 text-white" />
-                  </div>
-                  <h3 className="text-lg font-semibold text-nepveda-green-dark mb-3 leading-tight">
-                    {reason.title}
-                  </h3>
-                  <p className="text-nepveda-green-dark/70 text-sm leading-relaxed">
-                    {reason.description}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
+          {/* Bullet Points - Left Half Only */}
+          <div className="w-1/2">
+            <ul className="space-y-6">
+              {bulletPoints.map((point, index) => (
+                <li key={index} className="flex items-start">
+                  <span className="text-white text-2xl mr-4">•</span>
+                  <span className="text-xl text-white font-medium leading-relaxed">
+                    {point}
+                  </span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
