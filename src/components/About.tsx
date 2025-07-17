@@ -1,31 +1,7 @@
 
-import { Award, Heart, Users, Sparkles } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const About = () => {
-  const achievements = [
-    {
-      icon: Award,
-      title: "Kerala Certification",
-      description: "Certified Holistic Health Coach from the heart of Ayurveda"
-    },
-    {
-      icon: Heart,
-      title: "Holistic Approach",
-      description: "Treating mind, body, and spirit as interconnected systems"
-    },
-    {
-      icon: Users,
-      title: "Personalized Care",
-      description: "Customized treatment plans based on individual constitution"
-    },
-    {
-      icon: Sparkles,
-      title: "Ancient Wisdom",
-      description: "5000+ years of traditional Ayurvedic knowledge"
-    }
-  ];
-
   return (
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,82 +9,60 @@ const About = () => {
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-nepveda-green-dark mb-6">
-              About Nepveda
+              Why Us
             </h2>
             <p className="text-xl text-nepveda-green-dark/80 max-w-3xl mx-auto">
-              At Nepveda, we believe that true wellness begins with understanding.
+              Meet our experienced team of traditional Ayurvedic practitioners.
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            {/* Content */}
-            <div className="space-y-8 animate-slide-in">
-              <div className="space-y-6">
-                <h3 className="text-3xl font-bold text-nepveda-green-dark">
-                  Meet Shailja Pradhan
-                </h3>
-                <div className="space-y-4 text-nepveda-green-dark/80 text-lg leading-relaxed">
-                  <p>
-                    Led by Ayurvedic health coach Shailja Pradhan, our clinic offers deeply personalized 
-                    guidance using ancient knowledge, modern care, and natural healing. We exist to help 
-                    you become healthy — and stay healthy — in a way that aligns with your unique life and body.
-                  </p>
-                  <p>
-                    With deep-rooted passion for holistic healing, I am a certified Holistic Health Coach 
-                    trained in the traditional practices of Kerala Ayurveda. My journey began with a 
-                    personal transformation through Ayurvedic principles, which led me to dedicate my 
-                    life to helping others achieve optimal wellness.
-                  </p>
-                  <p>
-                    At Nepveda, we believe that true health encompasses not just the absence of disease, 
-                    but a state of complete physical, mental, and spiritual well-being rooted in Nepalese 
-                    Ayurveda traditions.
-                  </p>
-                </div>
-              </div>
-
-              {/* Credentials */}
-              <div className="bg-nepveda-cream rounded-2xl p-6">
-                <h4 className="text-xl font-semibold text-nepveda-green-dark mb-4">Credentials & Training</h4>
-                <ul className="space-y-2 text-nepveda-green-dark/80">
-                  <li className="flex items-center">
-                    <Award className="w-5 h-5 text-nepveda-green mr-3" />
-                    Certified Holistic Health Coach - Kerala Ayurveda
-                  </li>
-                  <li className="flex items-center">
-                    <Award className="w-5 h-5 text-nepveda-green mr-3" />
-                    Traditional Panchakarma Therapy Training
-                  </li>
-                  <li className="flex items-center">
-                    <Award className="w-5 h-5 text-nepveda-green mr-3" />
-                    Ayurvedic Nutrition & Lifestyle Counseling
-                  </li>
-                  <li className="flex items-center">
-                    <Award className="w-5 h-5 text-nepveda-green mr-3" />
-                    Herbal Medicine & Formulation
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Achievements Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 animate-fade-in">
-              {achievements.map((achievement, index) => (
-                <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-white to-nepveda-cream/50">
-                  <CardContent className="p-6 text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-nepveda-green to-nepveda-green-light rounded-full flex items-center justify-center">
-                      <achievement.icon className="w-8 h-8 text-white" />
+          {/* Team Member Card */}
+          <div className="max-w-4xl mx-auto">
+            <Card className="border-0 shadow-2xl overflow-hidden bg-gradient-to-br from-nepveda-cream via-white to-nepveda-cream/70">
+              <CardContent className="p-0">
+                <div className="grid lg:grid-cols-2 gap-0">
+                  {/* Image Section */}
+                  <div className="relative">
+                    <div className="aspect-square lg:aspect-auto lg:h-full bg-gradient-to-br from-nepveda-green/20 to-nepveda-green-light/30 flex items-center justify-center p-8">
+                      <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-nepveda-green/30 shadow-xl">
+                        <img 
+                          src="/lovable-uploads/624c2bd5-cfa0-4457-94a8-1072347aebbc.png"
+                          alt="Vaidya Madhu Bajracharya"
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
                     </div>
-                    <h4 className="text-xl font-semibold text-nepveda-green-dark mb-3">
-                      {achievement.title}
-                    </h4>
-                    <p className="text-nepveda-green-dark/70">
-                      {achievement.description}
-                    </p>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
+                  </div>
+                  
+                  {/* Content Section */}
+                  <div className="p-8 lg:p-12 flex flex-col justify-center">
+                    <div className="space-y-6">
+                      <div>
+                        <h3 className="text-3xl lg:text-4xl font-bold text-nepveda-green-dark mb-2">
+                          Vaidya Madhu Bajracharya
+                        </h3>
+                        <p className="text-xl text-nepveda-green font-semibold">
+                          Traditional Vaidya
+                        </p>
+                      </div>
+                      
+                      <div className="w-20 h-1 bg-gradient-to-r from-nepveda-green to-nepveda-green-light rounded-full"></div>
+                      
+                      <p className="text-lg text-nepveda-green-dark/80 leading-relaxed">
+                        Experience the wisdom of classical Nepali Ayurveda with an experienced Vaidya possessing generational knowledge, who uses time-tested herbal medicines and therapies to address the root cause of your disease and restore health.
+                      </p>
+                      
+                      {/* Decorative Element */}
+                      <div className="flex items-center space-x-2 pt-4">
+                        <div className="w-2 h-2 bg-nepveda-green rounded-full"></div>
+                        <div className="w-4 h-1 bg-nepveda-green-light rounded-full"></div>
+                        <div className="w-2 h-2 bg-nepveda-green/60 rounded-full"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>
