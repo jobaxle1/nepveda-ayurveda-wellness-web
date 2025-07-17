@@ -34,7 +34,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/fbe6386a-02f4-4611-833f-17ceb6928697.png" 
               alt="NEPVEDA Logo" 
-              className="h-12 w-auto"
+              className="h-20 w-auto"
             />
           </div>
 
