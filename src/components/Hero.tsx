@@ -1,5 +1,5 @@
 
-import { ArrowRight, Leaf, Heart, Star } from "lucide-react";
+import { ArrowRight, Heart, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
       
       {/* Floating elements */}
       <div className="absolute top-20 left-10 opacity-20 animate-pulse">
-        <Leaf className="w-12 h-12 text-nepveda-green transform rotate-12" />
+        <Heart className="w-12 h-12 text-nepveda-green transform rotate-12" />
       </div>
       <div className="absolute top-40 right-20 opacity-20 animate-pulse delay-1000">
         <Heart className="w-8 h-8 text-nepveda-green-light transform -rotate-12" />
@@ -80,10 +80,14 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-nepveda-green/20 to-nepveda-yellow/20 rounded-3xl transform rotate-3"></div>
               <div className="relative bg-white rounded-3xl p-8 shadow-2xl">
-                <div className="text-center space-y-6">
-                  <div className="w-32 h-32 mx-auto bg-gradient-to-br from-nepveda-green to-nepveda-green-light rounded-full flex items-center justify-center">
-                    <Leaf className="w-16 h-16 text-white" />
-                  </div>
+              <div className="text-center space-y-6">
+                <div className="w-32 h-32 mx-auto rounded-full overflow-hidden shadow-lg">
+                  <img 
+                    src="/lovable-uploads/a227e5ac-02bc-4546-869c-e9a1711f4145.png"
+                    alt="Shailja Pradhan - Ayurvedic practitioner"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                   <div>
                     <h3 className="text-2xl font-bold text-nepveda-green-dark mb-2">Shailja Pradhan</h3>
                     <p className="text-nepveda-green font-medium">Certified Holistic Health Coach</p>

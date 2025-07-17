@@ -1,5 +1,6 @@
 
 import Header from "@/components/Header";
+import PhotoCarousel from "@/components/PhotoCarousel";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
@@ -13,6 +14,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-nepveda-cream">
       <Header />
+      <PhotoCarousel />
       <Hero />
       <About />
       <Services />
