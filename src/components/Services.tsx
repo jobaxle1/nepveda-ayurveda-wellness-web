@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Leaf, Brain, Stethoscope, ChevronDown, ChevronUp, Clock, IndianRupee } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import consultationImg from "@/assets/ayurvedic-consultation.jpg";
+const consultationImg = "/lovable-uploads/2b980cce-cecb-4ebe-a555-fd046ba2feeb.png";
 import massageImg from "@/assets/ayurvedic-massage.jpg";
 import yogaImg from "@/assets/yoga-breathwork.jpg";
 
