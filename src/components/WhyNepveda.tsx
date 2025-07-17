@@ -9,7 +9,7 @@ const WhyNepveda = () => {
   return (
     <section 
       className="py-20 bg-cover bg-center bg-no-repeat relative"
-      style={{ backgroundImage: "url('/lovable-uploads/662a127b-aac9-4536-bf66-7c0d37b51cbc.png')" }}
+      style={{ backgroundImage: "url('/lovable-uploads/d249ae0d-c509-402e-a00e-287564a875ce.png')" }}
     >
       {/* Background overlay for better text readability */}
       <div className="absolute inset-0 bg-black/30"></div>
