@@ -4,7 +4,7 @@ import { Leaf, Brain, Stethoscope, ChevronDown, ChevronUp, Clock, IndianRupee } 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 const consultationImg = "/lovable-uploads/2b980cce-cecb-4ebe-a555-fd046ba2feeb.png";
-import massageImg from "@/assets/ayurvedic-massage.jpg";
+const massageImg = "/lovable-uploads/4ff7834d-ffd9-4f1d-be27-8fc0bedfaf3c.png";
 const yogaImg = "/lovable-uploads/f124a34a-8a87-4e76-abb9-b540e4172050.png";
 
 const Services = () => {
