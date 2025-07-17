@@ -27,11 +27,22 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real application, you would send this data to your backend
-    console.log("Form submitted:", formData);
+    
+    // Create WhatsApp message
+    const message = `Hello, I would like to book a consultation.
+    
+Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+Service Interest: ${formData.service}
+Message: ${formData.message}`;
+    
+    const whatsappUrl = `https://wa.me/9779705002060?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+    
     toast({
-      title: "Message Sent!",
-      description: "Thank you for your interest. We'll get back to you within 24 hours.",
+      title: "Redirecting to WhatsApp!",
+      description: "You'll be redirected to WhatsApp to send your message.",
     });
     
     // Reset form
@@ -48,25 +59,25 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      content: "+91 98765 43210",
-      link: "tel:+919876543210"
+      content: "+977 9705002060",
+      link: "tel:+9779705002060"
     },
     {
       icon: Mail,
       title: "Email",
-      content: "hello@nepveda.com",
-      link: "mailto:hello@nepveda.com"
+      content: "info@nepveda.com.np",
+      link: "mailto:info@nepveda.com.np"
     },
     {
       icon: MapPin,
       title: "Location",
-      content: "Mumbai, Maharashtra",
+      content: "Kathmandu, Babarmahal",
       link: "#"
     },
     {
       icon: Clock,
       title: "Hours",
-      content: "Mon-Sat: 9AM-7PM",
+      content: "On appointment basis through WhatsApp",
       link: "#"
     }
   ];
