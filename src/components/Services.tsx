@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 const consultationImg = "/lovable-uploads/2b980cce-cecb-4ebe-a555-fd046ba2feeb.png";
 import massageImg from "@/assets/ayurvedic-massage.jpg";
-import yogaImg from "@/assets/yoga-breathwork.jpg";
+const yogaImg = "/lovable-uploads/f124a34a-8a87-4e76-abb9-b540e4172050.png";
 
 const Services = () => {
   const [expandedService, setExpandedService] = useState<string | null>(null);
