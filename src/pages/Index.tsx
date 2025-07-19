@@ -6,6 +6,7 @@ import About from "@/components/About";
 import Services from "@/components/Services";
 import WhyNepveda from "@/components/WhyNepveda";
 import Testimonials from "@/components/Testimonials";
+import ConsultationPackages from "@/components/ConsultationPackages";
 import CallToAction from "@/components/CallToAction";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -20,6 +21,7 @@ const Index = () => {
       <Services />
       <WhyNepveda />
       <Testimonials />
+      <ConsultationPackages />
       <CallToAction />
       <Contact />
       <Footer />
