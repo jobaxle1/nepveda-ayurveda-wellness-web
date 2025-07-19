@@ -17,16 +17,10 @@ const Header = () => {
   }, []);
 
   const scrollToSection = (sectionId: string) => {
-    // If we're on the home page, scroll to section
-    if (window.location.pathname === '/') {
-      const element = document.getElementById(sectionId);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-        setIsMobileMenuOpen(false);
-      }
-    } else {
-      // If we're on another page, navigate to home with section hash
-      window.location.href = `/#${sectionId}`;
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      setIsMobileMenuOpen(false);
     }
   };
 
@@ -47,12 +41,12 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link 
-              to="/"
+            <button 
+              onClick={() => scrollToSection("home")}
               className="text-nepveda-green-dark hover:text-nepveda-green transition-colors font-medium"
             >
               Home
-            </Link>
+            </button>
             <button 
               onClick={() => scrollToSection("about")}
               className="text-nepveda-green-dark hover:text-nepveda-green transition-colors font-medium"
@@ -98,13 +92,12 @@ const Header = () => {
         {isMobileMenuOpen && (
           <div className="md:hidden absolute top-full left-0 right-0 bg-white/95 backdrop-blur-md shadow-lg rounded-b-2xl">
             <nav className="flex flex-col space-y-4 p-6">
-              <Link 
-                to="/"
+              <button 
+                onClick={() => scrollToSection("home")}
                 className="text-nepveda-green-dark hover:text-nepveda-green transition-colors font-medium text-left"
-                onClick={() => setIsMobileMenuOpen(false)}
               >
                 Home
-              </Link>
+              </button>
               <button 
                 onClick={() => scrollToSection("about")}
                 className="text-nepveda-green-dark hover:text-nepveda-green transition-colors font-medium text-left"
