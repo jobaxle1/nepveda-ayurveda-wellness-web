@@ -30,7 +30,7 @@ const Services = () => {
     {
       id: "body-treatments",
       title: "Ayurvedic Body Treatments",
-      image: "/lovable-uploads/a5fe69ad-56cc-4fcb-adbc-12ec516ac671.png",
+      image: "/lovable-uploads/96dc896f-896c-46d5-a002-1e8d101939cf.png",
       description: "Traditional full-body therapeutic treatments for complete wellness and rejuvenation",
       services: [
         {
@@ -66,7 +66,7 @@ const Services = () => {
     {
       id: "head-treatments",
       title: "Ayurvedic Head Treatments",
-      image: "/lovable-uploads/aa6eaf9c-c819-4421-ab4e-a13cf29aeccb.png",
+      image: "/lovable-uploads/e7313421-2aa6-4df9-a1f7-f31930b649eb.png",
       description: "Specialized head and scalp treatments for mental clarity and hair health",
       services: [
         {
@@ -88,7 +88,7 @@ const Services = () => {
     {
       id: "face-treatments",
       title: "Ayurvedic Face Treatments",
-      image: "/lovable-uploads/5a543ccd-dec4-4f5f-9fae-737dd41c4b98.png",
+      image: "/lovable-uploads/c992dc1d-e487-4e69-877d-bb3ca011dea9.png",
       description: "Rejuvenating facial treatments for natural beauty and skin health",
       services: [
         {
@@ -117,7 +117,7 @@ const Services = () => {
     {
       id: "foot-treatments",
       title: "Ayurvedic Foot Treatments",
-      image: "/lovable-uploads/64435b4a-6bce-49ab-802c-86056b3df6ae.png",
+      image: "/lovable-uploads/1e3c28fc-2a3e-4042-b858-c5f95c3a53b4.png",
       description: "Therapeutic foot treatments for grounding and overall wellness",
       services: [
         {
@@ -139,7 +139,7 @@ const Services = () => {
     {
       id: "steam-bath",
       title: "Steam Bath",
-      image: "/lovable-uploads/97bbbccd-69d1-48c2-87c3-3be0e2030ed5.png",
+      image: "/lovable-uploads/d971b0f9-42fa-4b47-8f69-b0f036b480e1.png",
       description: "Therapeutic steam treatments for detoxification and relaxation",
       services: [
         {
@@ -154,7 +154,7 @@ const Services = () => {
     {
       id: "basti-treatments",
       title: "Basti",
-      image: "/lovable-uploads/848d1f84-769f-4206-b8d6-e2f484076e16.png",
+      image: "/lovable-uploads/9ff14322-fe0c-4380-9922-0099e82aa823.png",
       description: "Localized oil pooling treatments for targeted healing",
       services: [
         {
@@ -197,7 +197,7 @@ const Services = () => {
     {
       id: "pichu-treatments",
       title: "Pichu",
-      image: "/lovable-uploads/f63b4ca7-eaef-4153-864f-eaeac080cf62.png",
+      image: "/lovable-uploads/116293ab-2653-442c-ac03-8ffc2606d922.png",
       description: "Continuous application of medicated oil with cotton for localized treatment",
       services: [
         {
@@ -247,7 +247,7 @@ const Services = () => {
     {
       id: "pinda-sweda",
       title: "Pinda Sweda - Special Kerala Massage",
-      image: "/lovable-uploads/ea4923ce-8c54-4f2a-af97-0a40051324ab.png",
+      image: "/lovable-uploads/60c03619-2ce5-4107-b039-3fb4b168a451.png",
       description: "Traditional Kerala massage with herbal boluses for therapeutic heating",
       services: [
         {
@@ -304,7 +304,7 @@ const Services = () => {
     {
       id: "lepa-treatments",
       title: "Lepa",
-      image: "/lovable-uploads/bc797e0d-a86c-417e-9ff7-15e4f2f88d9b.png",
+      image: "/lovable-uploads/38e100fd-a780-4bcf-932b-2541e69e5386.png",
       description: "Herbal paste applications for therapeutic healing",
       services: [
         {
@@ -319,7 +319,7 @@ const Services = () => {
     {
       id: "sensory-treatments",
       title: "Sensory Organs Treatment",
-      image: "/lovable-uploads/96770cb7-bbab-42c6-89cf-61b6ed082e2e.png",
+      image: "/lovable-uploads/e06b70dc-2a09-476f-8823-a7134cbb65a3.png",
       description: "Specialized treatments for eyes, nose, and sensory organ health",
       services: [
         {
