@@ -52,12 +52,12 @@ const Header = () => {
             >
               About
             </button>
-            <a 
-              href="/services"
+            <button 
+              onClick={() => scrollToSection("services")}
               className="text-nepveda-green-dark hover:text-nepveda-green transition-colors font-medium"
             >
               Services
-            </a>
+            </button>
             <button 
               onClick={() => scrollToSection("contact")}
               className="text-nepveda-green-dark hover:text-nepveda-green transition-colors font-medium"
@@ -97,13 +97,12 @@ const Header = () => {
               >
                 About
               </button>
-              <a 
-                href="/services"
+              <button 
+                onClick={() => scrollToSection("services")}
                 className="text-nepveda-green-dark hover:text-nepveda-green transition-colors font-medium text-left"
-                onClick={() => setIsMobileMenuOpen(false)}
               >
                 Services
-              </a>
+              </button>
               <button 
                 onClick={() => scrollToSection("contact")}
                 className="text-nepveda-green-dark hover:text-nepveda-green transition-colors font-medium text-left"
