@@ -4,6 +4,7 @@ import PhotoCarousel from "@/components/PhotoCarousel";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
+import ConsultationPackages from "@/components/ConsultationPackages";
 import WhyNepveda from "@/components/WhyNepveda";
 import Testimonials from "@/components/Testimonials";
 import CallToAction from "@/components/CallToAction";
@@ -18,6 +19,7 @@ const Index = () => {
       <Hero />
       <About />
       <Services />
+      <ConsultationPackages />
       <WhyNepveda />
       <Testimonials />
       <CallToAction />
