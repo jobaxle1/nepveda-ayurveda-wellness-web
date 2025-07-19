@@ -65,12 +65,12 @@ const Header = () => {
             >
               Contact
             </button>
-            <button 
-              onClick={() => scrollToSection("consultation-packages")}
+            <Link 
+              to="/consultation-packages"
               className="text-nepveda-green-dark hover:text-nepveda-green transition-colors font-medium"
             >
               Consultation & Packages
-            </button>
+            </Link>
             <Button 
               onClick={() => scrollToSection("contact")}
               className="bg-nepveda-green hover:bg-nepveda-green-dark text-white px-6 py-2 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
@@ -116,12 +116,13 @@ const Header = () => {
               >
                 Contact
               </button>
-              <button 
-                onClick={() => scrollToSection("consultation-packages")}
+              <Link 
+                to="/consultation-packages"
                 className="text-nepveda-green-dark hover:text-nepveda-green transition-colors font-medium text-left"
+                onClick={() => setIsMobileMenuOpen(false)}
               >
                 Consultation & Packages
-              </button>
+              </Link>
               <Button 
                 onClick={() => scrollToSection("contact")}
                 className="bg-nepveda-green hover:bg-nepveda-green-dark text-white w-full rounded-full mt-4"
