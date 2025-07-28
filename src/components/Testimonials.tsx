@@ -37,7 +37,7 @@ const Testimonials = () => {
           {/* Testimonials Grid */}
           <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
-              <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white hover:-translate-y-2 group">
+              <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-card hover:-translate-y-2 group">
                 <CardContent className="p-8 text-center">
                   <div className="mb-6">
                     <Quote className="w-12 h-12 text-nepveda-green mx-auto mb-4 opacity-20" />

@@ -378,7 +378,7 @@ const Services = () => {
                 open={expandedCategory === category.id}
                 onOpenChange={() => toggleCategory(category.id)}
               >
-                <Card className="overflow-hidden group hover:shadow-xl transition-all duration-500 border-2 hover:border-nepveda-green/20 bg-white">
+                <Card className="overflow-hidden group hover:shadow-xl transition-all duration-500 border-2 hover:border-nepveda-green/20 bg-card">
                   <CollapsibleTrigger asChild>
                     <CardHeader className="cursor-pointer">
                       <div className="flex flex-col lg:flex-row gap-6 items-center">
@@ -477,7 +477,7 @@ const Services = () => {
           </div>
 
           {/* Call to Action */}
-          <div className="mt-20 text-center bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-nepveda-green/10">
+          <div className="mt-20 text-center bg-card rounded-3xl p-8 md:p-12 shadow-xl border border-nepveda-green/10">
             <h3 className="text-3xl md:text-4xl font-bold text-nepveda-green-dark mb-6">
               Ready to Begin Your Healing Journey?
             </h3>
