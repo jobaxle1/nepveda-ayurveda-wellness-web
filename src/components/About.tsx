@@ -23,6 +23,13 @@ const About = () => {
     }
   ];
 
+  const additionalMember = {
+    name: "Anita Sangraula",
+    title: "500 Hrs Certified Yoga Trainer | Pilates Instructor",
+    image: "/lovable-uploads/b08f8697-b5cb-44e9-aa87-f2524e858640.png",
+    description: "She is a dedicated and professionally certified yoga and Pilates trainer. Yoga certified from Rishikesh, India. With a deep passion for holistic wellness, she offers both dynamic group sessions and personalized one-on-one training. Her focus is on building strength, enhancing flexibility, and guiding breathwork for a healthier, balanced life—inside and out. Whether you're a beginner or a dedicated practitioner, she is here to guide you on your journey toward a healthier, more harmonious life."
+  };
+
   return (
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -38,7 +45,7 @@ const About = () => {
           </div>
 
           {/* Team Members Grid */}
-          <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-8 w-full">
+          <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-8 w-full mb-8">
             {teamMembers.map((member, index) => (
               <Card key={index} className="border-0 shadow-xl overflow-hidden bg-gradient-to-br from-nepveda-cream via-white to-nepveda-cream/70 h-full">
                 <CardContent className="p-8 text-center h-full flex flex-col">
@@ -73,6 +80,45 @@ const About = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+
+          {/* Additional Member - Horizontal Layout */}
+          <div className="w-full">
+            <Card className="border-0 shadow-xl overflow-hidden bg-gradient-to-br from-nepveda-cream via-white to-nepveda-cream/70">
+              <CardContent className="p-6 flex items-center gap-6">
+                {/* Profile Image */}
+                <div className="flex-shrink-0">
+                  <div className="relative w-24 h-24 rounded-full overflow-hidden border-4 border-nepveda-green/30 shadow-lg">
+                    <img 
+                      src={additionalMember.image}
+                      alt={additionalMember.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                
+                {/* Content */}
+                <div className="flex-grow text-left">
+                  {/* Name and Title */}
+                  <div className="mb-2">
+                    <h3 className="text-xl lg:text-2xl font-bold text-nepveda-green-dark mb-1">
+                      {additionalMember.name}
+                    </h3>
+                    <p className="text-base text-nepveda-green font-semibold mb-2">
+                      {additionalMember.title}
+                    </p>
+                  </div>
+                  
+                  {/* Decorative Line */}
+                  <div className="w-16 h-1 bg-gradient-to-r from-nepveda-green to-nepveda-green-light rounded-full mb-3"></div>
+                  
+                  {/* Description */}
+                  <p className="text-sm text-nepveda-green-dark/80 leading-relaxed italic">
+                    "{additionalMember.description}"
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>
