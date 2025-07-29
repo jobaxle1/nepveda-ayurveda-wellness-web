@@ -81,19 +81,19 @@ const WhyNepveda = () => {
                   style={{ animationDelay: `${index * 200}ms` }}
                 >
                   {/* Step Card */}
-                  <div className="relative bg-gradient-to-br from-nepveda-green to-nepveda-secondary backdrop-blur-md border border-nepveda-green/30 rounded-2xl p-6 hover:scale-110 transition-all duration-500 shadow-2xl hover:shadow-nepveda-green/30">
+                  <div className="relative bg-gradient-to-br from-emerald-800 to-nepveda-secondary backdrop-blur-md border border-emerald-700/30 rounded-2xl p-6 hover:scale-110 transition-all duration-500 shadow-2xl hover:shadow-emerald-700/30">
                     {/* Glowing border effect */}
-                    <div className="absolute -inset-0.5 bg-gradient-to-r from-nepveda-secondary/40 via-nepveda-green/50 to-nepveda-secondary/40 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    <div className="absolute -inset-0.5 bg-gradient-to-r from-nepveda-secondary/40 via-emerald-600/50 to-nepveda-secondary/40 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                     
                     {/* Step Number Circle */}
                     <div className="relative flex justify-center mb-4">
-                      <div className="w-16 h-16 bg-gradient-to-br from-nepveda-secondary to-yellow-300 rounded-full flex items-center justify-center shadow-xl group-hover:shadow-nepveda-secondary/50 transition-shadow duration-500">
-                        <span className="text-2xl font-bold text-nepveda-green-dark">{step.number}</span>
+                      <div className="w-20 h-20 bg-gradient-to-br from-yellow-400 to-yellow-300 rounded-full flex items-center justify-center shadow-2xl border-4 border-white/90 group-hover:shadow-yellow-400/60 transition-all duration-500 hover:scale-105">
+                        <span className="text-3xl font-black text-emerald-900 drop-shadow-lg">{step.number}</span>
                       </div>
                       
                       {/* Floating particles around number */}
-                      <div className="absolute -top-2 -right-2 w-3 h-3 bg-nepveda-secondary/80 rounded-full animate-bounce delay-300"></div>
-                      <div className="absolute -bottom-1 -left-1 w-2 h-2 bg-yellow-300/60 rounded-full animate-bounce delay-700"></div>
+                      <div className="absolute -top-2 -right-2 w-3 h-3 bg-yellow-400/90 rounded-full animate-bounce delay-300"></div>
+                      <div className="absolute -bottom-1 -left-1 w-2 h-2 bg-yellow-300/70 rounded-full animate-bounce delay-700"></div>
                     </div>
 
                     {/* Step Content */}
@@ -109,15 +109,15 @@ const WhyNepveda = () => {
                     {/* Connecting Arrow (hidden on mobile) */}
                     {index < journeySteps.length - 1 && (
                       <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2">
-                        <div className="w-8 h-0.5 bg-gradient-to-r from-nepveda-secondary/80 to-transparent"></div>
-                        <div className="absolute -right-1 top-1/2 transform -translate-y-1/2 w-0 h-0 border-l-4 border-l-nepveda-secondary/80 border-t-2 border-b-2 border-t-transparent border-b-transparent"></div>
+                        <div className="w-8 h-0.5 bg-gradient-to-r from-yellow-400/80 to-transparent"></div>
+                        <div className="absolute -right-1 top-1/2 transform -translate-y-1/2 w-0 h-0 border-l-4 border-l-yellow-400/80 border-t-2 border-b-2 border-t-transparent border-b-transparent"></div>
                       </div>
                     )}
                   </div>
 
                   {/* Floating orbs */}
-                  <div className="absolute top-4 right-4 w-1 h-1 bg-nepveda-secondary/70 rounded-full animate-ping delay-500"></div>
-                  <div className="absolute bottom-6 left-2 w-1.5 h-1.5 bg-yellow-300/50 rounded-full animate-ping delay-1000"></div>
+                  <div className="absolute top-4 right-4 w-1 h-1 bg-yellow-400/70 rounded-full animate-ping delay-500"></div>
+                  <div className="absolute bottom-6 left-2 w-1.5 h-1.5 bg-yellow-300/60 rounded-full animate-ping delay-1000"></div>
                 </div>
               ))}
             </div>
