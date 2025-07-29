@@ -44,7 +44,7 @@ const WhyNepveda = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-14 animate-fade-in -mt-6">
+          <div className="text-center mb-32 animate-fade-in pt-4">
             <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide">
               What to Expect
             </h2>
