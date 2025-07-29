@@ -29,23 +29,22 @@ const WhyNepveda = () => {
 
   return (
     <section 
-      className="pt-32 pb-20 bg-cover bg-center bg-no-repeat relative overflow-hidden"
+      className="py-20 bg-cover bg-center bg-no-repeat relative overflow-hidden"
       style={{ backgroundImage: "url('/lovable-uploads/d249ae0d-c509-402e-a00e-287564a875ce.png')" }}
     >
       {/* Background overlay for better text readability */}
-      <div className="absolute inset-0 bg-gradient-to-br from-nepveda-green-dark/60 via-black/50 to-nepveda-green/40"></div>
+      <div className="absolute inset-0 bg-black/40"></div>
       
       {/* Flowing background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-nepveda-green/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-nepveda-green-dark/25 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/3 right-1/3 w-64 h-64 bg-nepveda-secondary/15 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-white/5 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-nepveda-green/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-20 animate-fade-in">
+          <div className="text-center mb-14 animate-fade-in -mt-6">
             <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide">
               What to Expect
             </h2>
@@ -74,7 +73,7 @@ const WhyNepveda = () => {
             </svg>
 
             {/* Journey Steps */}
-            <div className="relative grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4">
+            <div className="relative grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4 mt-6">
               {journeySteps.map((step, index) => (
                 <div 
                   key={index} 
