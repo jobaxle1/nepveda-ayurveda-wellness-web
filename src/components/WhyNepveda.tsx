@@ -28,12 +28,8 @@ const WhyNepveda = () => {
   ];
 
   return (
-    <section 
-      className="py-20 bg-cover bg-center bg-no-repeat relative overflow-hidden"
-      style={{ backgroundImage: "url('/lovable-uploads/d249ae0d-c509-402e-a00e-287564a875ce.png')" }}
-    >
-      {/* Background overlay for better text readability */}
-      <div className="absolute inset-0 bg-black/40"></div>
+    <section className="py-20 bg-white relative overflow-hidden">
+      {/* No background overlay needed */}
       
       {/* Flowing background elements */}
       <div className="absolute inset-0 overflow-hidden">
@@ -44,11 +40,11 @@ const WhyNepveda = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-96 animate-fade-in pt-4">
-            <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide">
+          <div className="text-center mb-32 animate-fade-in pt-4">
+            <h2 className="text-4xl md:text-6xl font-bold text-nepveda-green-dark mb-6 tracking-wide">
               What to Expect
             </h2>
-            <div className="w-32 h-1 bg-gradient-to-r from-transparent via-white to-transparent mx-auto"></div>
+            <div className="w-32 h-1 bg-gradient-to-r from-transparent via-nepveda-green to-transparent mx-auto"></div>
           </div>
           
           {/* Journey Path */}
@@ -73,7 +69,7 @@ const WhyNepveda = () => {
             </svg>
 
             {/* Journey Steps */}
-            <div className="relative grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4 mt-6">
+            <div className="relative grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4 mt-32">
               {journeySteps.map((step, index) => (
                 <div 
                   key={index} 
