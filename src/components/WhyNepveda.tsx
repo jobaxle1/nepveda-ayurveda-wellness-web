@@ -28,7 +28,7 @@ const WhyNepveda = () => {
   ];
 
   return (
-    <section className="py-20 bg-white relative overflow-hidden">
+    <section className="py-20 bg-white relative overflow-hidden min-h-screen flex flex-col">
       {/* No background overlay needed */}
       
       {/* Flowing background elements */}
@@ -37,10 +37,10 @@ const WhyNepveda = () => {
         <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-nepveda-green/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
       
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-7xl mx-auto">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex-1 flex flex-col">
+        <div className="max-w-7xl mx-auto flex-1 flex flex-col">
           {/* Header */}
-          <div className="text-center mb-32 animate-fade-in pt-4">
+          <div className="text-center mb-8 animate-fade-in pt-4">
             <h2 className="text-4xl md:text-6xl font-bold text-nepveda-green-dark mb-6 tracking-wide">
               What to Expect
             </h2>
@@ -48,7 +48,7 @@ const WhyNepveda = () => {
           </div>
           
           {/* Journey Path */}
-          <div className="relative">
+          <div className="relative flex-1 flex flex-col justify-end pb-8">
             {/* Flowing Path Line */}
             <svg className="absolute inset-0 w-full h-full" viewBox="0 0 1200 800" fill="none">
               <path 
@@ -69,7 +69,7 @@ const WhyNepveda = () => {
             </svg>
 
             {/* Journey Steps */}
-            <div className="relative grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4 mt-32">
+            <div className="relative grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4">
               {journeySteps.map((step, index) => (
                 <div 
                   key={index} 
@@ -77,7 +77,7 @@ const WhyNepveda = () => {
                   style={{ animationDelay: `${index * 200}ms` }}
                 >
                   {/* Step Card */}
-                  <div className="relative bg-gradient-to-br from-nepveda-green to-nepveda-secondary backdrop-blur-md border border-nepveda-green/30 rounded-2xl p-6 hover:scale-110 transition-all duration-500 shadow-2xl hover:shadow-nepveda-green/30">
+                  <div className="relative bg-white backdrop-blur-md border border-nepveda-green/30 rounded-2xl p-6 hover:scale-110 transition-all duration-500 shadow-2xl hover:shadow-nepveda-green/30">
                     {/* Glowing border effect */}
                     <div className="absolute -inset-0.5 bg-gradient-to-r from-nepveda-secondary/40 via-nepveda-green/50 to-nepveda-secondary/40 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                     
@@ -94,10 +94,10 @@ const WhyNepveda = () => {
 
                     {/* Step Content */}
                     <div className="text-center relative">
-                      <h3 className="text-lg md:text-xl font-bold text-white mb-3 group-hover:text-nepveda-cream transition-colors">
+                      <h3 className="text-lg md:text-xl font-bold text-nepveda-green-dark mb-3 group-hover:text-nepveda-green transition-colors">
                         {step.title}
                       </h3>
-                      <p className="text-sm md:text-base text-white/95 leading-relaxed font-medium">
+                      <p className="text-sm md:text-base text-nepveda-green-dark/80 leading-relaxed font-medium">
                         {step.description}
                       </p>
                     </div>
