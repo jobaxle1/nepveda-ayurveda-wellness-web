@@ -19,8 +19,8 @@ const Index = () => {
       <Hero />
       <About />
       <WhyNepveda />
-      <Services />
       <ConsultationPackages />
+      <Services />
       <Testimonials />
       <CallToAction />
       <Contact />
