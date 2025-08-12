@@ -32,7 +32,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 text-nepveda-cream/60">
               <span>Made with</span>
               <Heart className="w-4 h-4 text-red-400" />
-              <span>in Mumbai</span>
+              <span>in Kathmandu</span>
             </div>
           </div>
 
@@ -100,8 +100,8 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-nepveda-yellow" />
-                <a href="mailto:hello@nepveda.com" className="text-nepveda-cream/80 hover:text-nepveda-yellow transition-colors">
-                  hello@nepveda.com
+                <a href="mailto:info@nepveda.com.np" className="text-nepveda-cream/80 hover:text-nepveda-yellow transition-colors">
+                  info@nepveda.com.np
                 </a>
               </div>
               <div className="flex items-center space-x-3">
