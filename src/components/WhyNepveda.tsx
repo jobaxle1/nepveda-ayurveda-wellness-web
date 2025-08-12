@@ -28,27 +28,28 @@ const WhyNepveda = () => {
   ];
 
   return (
-    <section className="py-20 bg-white relative overflow-hidden min-h-screen flex flex-col">
-      {/* No background overlay needed */}
-      
-      {/* Flowing background elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-white/5 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-nepveda-green/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+    <section className="py-20 relative overflow-hidden min-h-screen flex flex-col">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: 'url(/lovable-uploads/5aa87501-f005-4d34-a9a6-40875faf04e8.png)' }}
+      >
+        {/* Dark overlay to ensure text readability */}
+        <div className="absolute inset-0 bg-black/20"></div>
       </div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex-1 flex flex-col">
         <div className="max-w-7xl mx-auto flex-1 flex flex-col">
           {/* Header */}
           <div className="text-center mb-8 animate-fade-in pt-4">
-            <h2 className="text-4xl md:text-6xl font-bold text-nepveda-green-dark mb-6 tracking-wide">
+            <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide drop-shadow-lg">
               What to Expect
             </h2>
-            <div className="w-32 h-1 bg-gradient-to-r from-transparent via-nepveda-green to-transparent mx-auto"></div>
+            <div className="w-32 h-1 bg-gradient-to-r from-transparent via-white to-transparent mx-auto"></div>
           </div>
           
           {/* Journey Path */}
-          <div className="relative flex-1 flex flex-col justify-end pb-8">
+          <div className="relative flex-1 flex flex-col justify-end pb-16 pt-32">
             {/* Flowing Path Line */}
             <svg className="absolute inset-0 w-full h-full" viewBox="0 0 1200 800" fill="none">
               <path 
