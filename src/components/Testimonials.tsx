@@ -4,8 +4,8 @@ import { Card, CardContent } from "@/components/ui/card";
 const Testimonials = () => {
   const testimonials = [
     {
-      text: "I've tried everything for my joint pain. Nepveda was the first place that truly understood me.",
-      author: "Priya S.",
+      text: "Nepveda: My go-to place to heal and find peace 🥰 I came to Nepveda for my apnea issues. After nasya treatments, yoga sessions, and diet changes, I'm breathing and sleeping better. Nepveda has been a comforting space that restored both my health and my spirit.",
+      author: "Reshma Shrestha",
       rating: 5
     },
     {
