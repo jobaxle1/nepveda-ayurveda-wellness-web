@@ -28,7 +28,7 @@ const WhyNepveda = () => {
   ];
 
   return (
-    <section className="py-20 relative overflow-hidden min-h-screen flex flex-col">
+    <section className="pb-0 relative overflow-hidden min-h-screen flex flex-col">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -41,7 +41,7 @@ const WhyNepveda = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex-1 flex flex-col">
         <div className="max-w-7xl mx-auto flex-1 flex flex-col">
           {/* Header */}
-          <div className="text-center mb-16 animate-fade-in pt-8">
+          <div className="text-center mb-16 animate-fade-in pt-2">
             <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide drop-shadow-lg">
               What to Expect
             </h2>
@@ -51,7 +51,7 @@ const WhyNepveda = () => {
           {/* Journey Path - positioned at very bottom */}
           <div className="relative flex-1 flex flex-col justify-end">
             {/* Journey Steps - positioned at absolute bottom */}
-            <div className="relative pb-8">
+            <div className="relative pb-0">
               {/* Journey Steps */}
               <div className="relative grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4">
                 {journeySteps.map((step, index) => (
