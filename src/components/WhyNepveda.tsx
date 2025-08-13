@@ -39,17 +39,17 @@ const WhyNepveda = () => {
       </div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex-1 flex flex-col">
-        <div className="max-w-7xl mx-auto flex-1 flex flex-col">
+        <div className="max-w-7xl mx-auto flex-1 flex flex-col justify-end">
           {/* Header */}
-          <div className="text-center mb-8 animate-fade-in pt-4">
+          <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide drop-shadow-lg">
               What to Expect
             </h2>
             <div className="w-32 h-1 bg-gradient-to-r from-transparent via-white to-transparent mx-auto"></div>
           </div>
           
-          {/* Journey Path */}
-          <div className="relative flex-1 flex flex-col justify-end pb-16 pt-32">
+          {/* Journey Path - positioned at bottom */}
+          <div className="relative pb-20">
             {/* Flowing Path Line */}
             <svg className="absolute inset-0 w-full h-full" viewBox="0 0 1200 800" fill="none">
               <path 
