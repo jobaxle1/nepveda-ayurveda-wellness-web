@@ -6,7 +6,8 @@ const Testimonials = () => {
     {
       text: "Nepveda: My happy space that gave me hope🥰🥰 I came to Nepveda for my apnea issues. After nasya treatments, yoga sessions, and diet changes, I'm breathing and sleeping better. Nepveda has truly been my comforting place that healed my soul.",
       author: "Reshma Shrestha",
-      rating: 5
+      rating: 5,
+      image: "/lovable-uploads/b4a4054e-62ad-470b-835a-f97df4729cf8.png"
     },
     {
       text: "After my consultation, it finally made sense why I wasn't getting better. I wish I had come sooner.",
@@ -40,6 +41,15 @@ const Testimonials = () => {
               <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-card hover:-translate-y-2 group">
                 <CardContent className="p-8 text-center">
                   <div className="mb-6">
+                    {testimonial.image && (
+                      <div className="w-20 h-20 mx-auto mb-4">
+                        <img 
+                          src={testimonial.image} 
+                          alt={testimonial.author}
+                          className="w-full h-full rounded-full object-cover border-4 border-nepveda-green/20"
+                        />
+                      </div>
+                    )}
                     <Quote className="w-12 h-12 text-nepveda-green mx-auto mb-4 opacity-20" />
                     <div className="flex justify-center mb-4">
                       {[...Array(testimonial.rating)].map((_, i) => (
