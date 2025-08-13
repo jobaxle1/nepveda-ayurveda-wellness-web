@@ -7,7 +7,7 @@ const Testimonials = () => {
       text: "Nepveda: My happy space that gave me hope🥰🥰 I came to Nepveda for my apnea issues. After nasya treatments, yoga sessions, and diet changes, I'm breathing and sleeping better. Nepveda has truly been my comforting place that healed my soul.",
       author: "Reshma Shrestha",
       rating: 5,
-      image: "/lovable-uploads/b4a4054e-62ad-470b-835a-f97df4729cf8.png"
+      image: "/lovable-uploads/860bed1b-71cc-4eb4-a2dd-f96c006f6df7.png"
     },
     {
       text: "After my consultation, it finally made sense why I wasn't getting better. I wish I had come sooner.",
