@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
-import { ChevronDown, Clock, DollarSign, Heart, Sparkles, ArrowLeft } from "lucide-react";
+import { ChevronDown, Clock, Heart, Sparkles, ArrowLeft, IndianRupee } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Link } from "react-router-dom";
 import Header from "@/components/Header";
@@ -32,75 +32,404 @@ const AyurvedicServices = () => {
       id: "consultation",
       title: "Ayurvedic Consultation",
       image: "/src/assets/ayurvedic-consultation.jpg",
-      description: "Personalized consultations to understand your unique constitution and health needs",
+      description: "Discover balance and vitality through personalized guidance tailored to lifestyle and emotional well-being with a passionate health coach who empowers individuals to claim their health naturally using the ancient science of Ayurveda.",
       services: [
         {
-          name: "Initial Consultation",
-          description: "Comprehensive assessment of your dosha (constitution), current health status, and personalized treatment recommendations.",
-          duration: "60 minutes",
-          price: "Rs. 2500",
+          name: "Consultation with a Holistic Ayurvedic Coach",
+          description: "Holistic Ayurvedic Coach & Ayurvedic Diseases Management Practitioner (Kerala Ayurveda Academy)",
+          duration: "120 mins",
+          price: "Rs. 3000",
           benefits: [
-            "Personalized dosha analysis",
-            "Dietary and lifestyle recommendations",
-            "Treatment plan development",
-            "Health goal setting"
+            "Discover balance and vitality through personalized guidance",
+            "Lifestyle and emotional well-being coaching",
+            "Natural health empowerment using ancient Ayurvedic science"
           ]
         },
         {
-          name: "Follow-up Consultation",
-          description: "Review of progress, treatment adjustments, and continued guidance on your wellness journey.",
-          duration: "30 minutes",
+          name: "Private Consultation with a Traditional Vaidya",
+          description: "Vaidya Meethu Bajracharya - Traditional Vaidya. Experience the wisdom of classical Nepali Ayurveda with an experienced Vaidya possessing generational knowledge, who uses time-tested herbal medicines and therapies to address the root cause of your disease and restore health.",
+          duration: "30 mins",
           price: "Rs. 1500",
           benefits: [
-            "Progress evaluation",
-            "Treatment plan refinement",
-            "Ongoing support",
-            "Health maintenance guidance"
+            "Classical Nepali Ayurvedic wisdom",
+            "Generational knowledge application",
+            "Time-tested herbal medicines and therapies",
+            "Root cause disease treatment"
+          ]
+        },
+        {
+          name: "Private Consultation with an Ayurvedic Doctor",
+          description: "Dr. Hari Sharan Aryal - MD, Internal Medicine (Ayurveda), Ancestral expert. Get expert medical insight from one of Nepal's best Ayurvedic doctors, who blends ancient diagnostics with modern tools to offer safe, personalized treatment for chronic and complex conditions.",
+          duration: "30 mins",
+          price: "Rs. 1500",
+          benefits: [
+            "Expert medical insight from Nepal's best Ayurvedic doctor",
+            "Blend of ancient diagnostics with modern tools",
+            "Safe, personalized treatment for chronic conditions"
           ]
         }
       ]
     },
     {
-      id: "yoga-breathwork",
-      title: "Yoga and Breath Work",
-      image: "/src/assets/yoga-breathwork.jpg",
-      description: "Ancient practices to harmonize mind, body, and spirit through movement and breath",
+      id: "body-treatments",
+      title: "Ayurvedic Body Treatments",
+      image: "/src/assets/ayurvedic-massage.jpg",
+      description: "Full body therapeutic treatments using traditional Ayurvedic techniques to restore balance and promote healing.",
       services: [
         {
-          name: "Private Yoga Session",
-          description: "Customized yoga practice tailored to your body type, health conditions, and spiritual goals.",
-          duration: "75 minutes",
-          price: "Rs. 3000",
-          benefits: [
-            "Personalized asana practice",
-            "Improved flexibility and strength",
-            "Stress reduction",
-            "Better sleep quality"
-          ]
+          name: "Abhyanga",
+          description: "Full body massage - including head and foot- with ayurvedic oil based on the dosha imbalance. Body ache, stiffness, difficulty in movement, joint pain, numbness, insomnia, loss of sensation, hair structure, dry skin, Vata aggravation.",
+          duration: "60 mins",
+          price: "Rs. 3500",
+          benefits: ["Relieves body ache and stiffness", "Improves joint mobility", "Reduces insomnia", "Nourishes skin and hair"]
         },
         {
-          name: "Pranayama (Breath Work)",
-          description: "Specialized breathing techniques to enhance energy, calm the mind, and improve overall health.",
-          duration: "45 minutes",
-          price: "Rs. 2000",
-          benefits: [
-            "Enhanced lung capacity",
-            "Stress and anxiety relief",
-            "Improved concentration",
-            "Emotional balance"
-          ]
+          name: "Prasaootika Abhyanga",
+          description: "Full body massage - post partum - with ayurvedic oil. Vata dosha, loss of strength after childbirth.",
+          duration: "60 mins",
+          price: "Rs. 3500",
+          benefits: ["Post-partum recovery", "Restores strength after childbirth", "Balances Vata dosha"]
         },
         {
-          name: "Meditation Session",
-          description: "Guided meditation practices to cultivate inner peace, mindfulness, and spiritual growth.",
-          duration: "30 minutes",
+          name: "Udvertana",
+          description: "Full body scrubbing with herbal powders. Kapha vitaara -Twin building, obesity, cellulite, rough skin, varicose veins, heaviness, lethargy, water retention, non-infectious skin disease with dead skin, dull skin, type 2 diabetes. Vata- vitaara ( oil based)- itching, PCOS, hypothyroidism, rheumatoid arthritis, irregular periods, peridonlianism, muscle weakness, fungal infection, burning syndrome.",
+          duration: "60 mins",
+          price: "Rs. 3500",
+          benefits: ["Reduces obesity and cellulite", "Improves skin texture", "Balances Kapha dosha", "Helps with metabolic disorders"]
+        },
+        {
+          name: "Ruksha Abhyanga",
+          description: "Full body dry massage including head and foot. Kapha, area foam, obesity, metabolic sluggishness or skin tissue.",
+          duration: "30 mins",
           price: "Rs. 1500",
-          benefits: [
-            "Mental clarity",
-            "Emotional stability",
-            "Spiritual connection",
-            "Deep relaxation"
-          ]
+          benefits: ["Stimulates metabolism", "Reduces Kapha imbalance", "Improves circulation"]
+        }
+      ]
+    },
+    {
+      id: "head-treatments",
+      title: "Ayurvedic Head Treatments",
+      image: "/src/assets/ayurvedic-massage.jpg",
+      description: "Specialized treatments for head, scalp, and hair health using traditional Ayurvedic methods.",
+      services: [
+        {
+          name: "Shiro Abhyanga",
+          description: "Head massage with ayurvedic oil based on the dosha imbalance. Hair fall, dandruff, premature graying, dry skin, tinnitus, eye strain, light-headedness or throbbing headache or pain in the eyes and temples, insomnia, stress, anxiety, exhaustion, loss of memory, decreased visual power, Epilepsy, Parkinson, Autism, geriatric disease. Memory loss, decreased visual power, hyper activity, burning sensation.",
+          duration: "60 mins",
+          price: "Rs. 3000",
+          benefits: ["Prevents hair fall and premature graying", "Reduces stress and anxiety", "Improves memory and visual power", "Treats neurological conditions"]
+        },
+        {
+          name: "Shiro Lepa",
+          description: "Application of herbal paste to the scalp for gray hair, hair fall and dandruff. Scalp Conditions: Hair fall, premature graying, dandruff, scalp psoriasis, boils or inflammation on scalp.",
+          duration: "45 mins",
+          price: "Rs. 2500",
+          benefits: ["Treats hair fall and dandruff", "Prevents premature graying", "Heals scalp conditions"]
+        },
+        {
+          name: "Shirodhara",
+          description: "Continuous pouring of ayurvedic oil on the forehead especially for vata conditions. Vata diseases: Stress, insomnia, head ache (vata), menopausal syndrome, paralysis, facial palsy, insanity, Epilepsy, Autism, geriatric disease. Memory loss, decreased visual power, hyper activity, burning sensation.",
+          duration: "60 mins",
+          price: "Rs. 5000",
+          benefits: ["Deep stress relief", "Treats insomnia and headaches", "Helps neurological disorders", "Calms the nervous system"]
+        }
+      ]
+    },
+    {
+      id: "face-treatments",
+      title: "Ayurvedic Face Treatments",
+      image: "/src/assets/ayurvedic-massage.jpg",
+      description: "Natural facial treatments using herbs and oils for healthy, radiant skin.",
+      services: [
+        {
+          name: "Saundarya Chikitsa",
+          description: "Full facial with ayurvedic herbs and oils that suit individual doshas and skin conditions. Pitta skin: Redness, rashes, inflammatory acne, sensitivity, heat, irritation, pigmentation. Vata Skin: Dryness, flakiness, fine lines. Kapha Skin: Excessive oiliness, blackheads, acne.",
+          duration: "60 mins",
+          price: "Rs. 4000",
+          benefits: ["Customized for individual skin type", "Treats acne and pigmentation", "Reduces signs of aging", "Balances skin doshas"]
+        },
+        {
+          name: "Marma Abhyanga",
+          description: "Facial massage on marma points using dosha-specific ayurvedic oil. Emotional blockages or stress, mental stress, blurred vision, nasal blockage, allergic rhinitis, ear ringing, migraine, jaw tension and clenching, brow tension, neck and scalp tightness, facial fatigue, wrinkles, fine lines, puffiness.",
+          duration: "30 mins",
+          price: "Rs. 2000",
+          benefits: ["Relieves emotional blockages", "Reduces facial tension", "Improves skin circulation", "Anti-aging benefits"]
+        },
+        {
+          name: "Kansa Abhyanga",
+          description: "Facial massage with a kansa wand using dosha-specific ayurvedic oil. Emotional blockages or stress, anxiety, jaw tension, brow stiffness, eye strain, facial fatigue, stress, anxiety, poor immunity, lymphatic stress, fine lines, wrinkles, fatigue. (Kansa is alkaline and helps neutralize skin acidity and bring out its natural beauty.)",
+          duration: "30 mins",
+          price: "Rs. 2000",
+          benefits: ["Neutralizes skin acidity", "Reduces stress and anxiety", "Improves lymphatic drainage", "Natural anti-aging effects"]
+        }
+      ]
+    },
+    {
+      id: "foot-treatments",
+      title: "Ayurvedic Foot Treatments",
+      image: "/src/assets/ayurvedic-massage.jpg",
+      description: "Therapeutic foot treatments for overall health and wellness.",
+      services: [
+        {
+          name: "Pada Abhyanga",
+          description: "Foot massage/reflexology using ayurvedic oil. Dryness, cracks & roughness of feet, restless leg syndrome, numbness & tingling in limbs, diabetic neuropathy, sciatica & lower back pain, varicose veins (heavy-staged), insomnia, fatigue, body pain, headache, migraine, stress, anxiety, eye strain, sleep disorders.",
+          duration: "60 mins",
+          price: "Rs. 3000",
+          benefits: ["Relieves restless leg syndrome", "Treats diabetic neuropathy", "Reduces stress and insomnia", "Improves circulation"]
+        },
+        {
+          name: "Pada Lepa",
+          description: "Anti-fungal paste applied on the feet. Fungal infection, itching and burning, excess moisture, cracks and lesions.",
+          duration: "45 mins",
+          price: "Rs. 2500",
+          benefits: ["Treats fungal infections", "Heals cracks and lesions", "Antifungal properties"]
+        }
+      ]
+    },
+    {
+      id: "steam-bath",
+      title: "Steam Bath",
+      image: "/src/assets/ayurvedic-massage.jpg",
+      description: "Therapeutic steam treatments for detoxification and relaxation.",
+      services: [
+        {
+          name: "Swedana",
+          description: "Therapeutic steam bath in a steam chamber (time depending on your dosha). Post-Udvertana -helps detox, fat breakdown, flush out loosened toxins and clear pores. Post-Abhyanga- Amplifies relaxation and pain relief, supports circulation and absorption of herbs. Post-Pichu therapies -Enhances sweating and relieves musculoskeletal pain.",
+          duration: "5 - 20 mins",
+          price: "Rs. 500",
+          benefits: ["Detoxification", "Fat breakdown", "Pain relief", "Improved circulation"]
+        }
+      ]
+    },
+    {
+      id: "basti",
+      title: "Basti - Oil Pooling Therapy",
+      image: "/src/assets/ayurvedic-massage.jpg",
+      description: "Specialized oil pooling treatments for targeted healing.",
+      services: [
+        {
+          name: "Shiro Basti (Two therapists)",
+          description: "Continuous pooling of warm dosha-specific ayurvedic oil on the HEAD. Stress, anxiety, insomnia, burnout, depression, emotional fatigue, migraine, sinusitis, memory issues, psychosomatic diseases, chronic tension headache, migraines, facial palsy, cervical radiculopathies, eye strain, weak hair root.",
+          duration: "60 mins",
+          price: "Rs. 4000",
+          benefits: ["Deep stress relief", "Treats migraines and headaches", "Improves memory", "Strengthens hair roots"]
+        },
+        {
+          name: "Griva Basti",
+          description: "Continuous pooling of warm dosha-specific ayurvedic oil on the NECK. Neck stiffness and strain, cervical spondylitis, bone degeneration, radiating pain- tingling or numbness in arms, vertigo due to cervical issues.",
+          duration: "45 mins",
+          price: "Rs. 3000",
+          benefits: ["Relieves neck stiffness", "Treats cervical spondylitis", "Reduces radiating pain"]
+        },
+        {
+          name: "Uro Basti",
+          description: "Continuous pooling of warm dosha-specific ayurvedic oil on the CHEST. Palpitation, chest pain, bronchial asthma, chronic cough, tightness/ bone thickness, anxiety-related heart symptoms, panic attacks with chest discomfort, grief, inflammatory rib cartilage, nerve pain between ribs.",
+          duration: "45 mins",
+          price: "Rs. 3000",
+          benefits: ["Treats chest pain and palpitations", "Helps respiratory issues", "Reduces anxiety-related symptoms"]
+        },
+        {
+          name: "Kati Basti",
+          description: "Continuous pooling of warm dosha-specific ayurvedic oil on the LOWER BACK. Lower spine/disk, muscle stiffness, disc prolapse, osteoarthritis, rigidity, heel- bone degeneration.",
+          duration: "45 mins",
+          price: "Rs. 3000",
+          benefits: ["Treats lower back pain", "Helps disc problems", "Reduces muscle stiffness"]
+        },
+        {
+          name: "Janu Basti (Two therapists)",
+          description: "Continuous pooling of warm dosha-specific ayurvedic oil on the KNEES. Knee pain due to osteoarthritis, stiffness and crepitus, ligament tear, bone degeneration.",
+          duration: "60 mins",
+          price: "Rs. 4000",
+          benefits: ["Treats knee pain and stiffness", "Helps osteoarthritis", "Improves joint mobility"]
+        }
+      ]
+    },
+    {
+      id: "pichu",
+      title: "Pichu - Medicated Oil Application",
+      image: "/src/assets/ayurvedic-massage.jpg",
+      description: "Cotton cloth soaked in warm medicated oil for targeted treatment.",
+      services: [
+        {
+          name: "Shiro Pichu (Two therapists)",
+          description: "Continuous application of cotton soaked in warm medicated oil on the HEAD. Same conditions as Shiro Basti.",
+          duration: "30 mins",
+          price: "Rs. 2500",
+          benefits: ["Alternative to Shiro Basti", "Treats head and scalp conditions"]
+        },
+        {
+          name: "Griva Pichu",
+          description: "Continuous application of cotton soaked in warm medicated oil on the NECK. Same as Griva Basti.",
+          duration: "30 mins",
+          price: "Rs. 2000",
+          benefits: ["Alternative to Griva Basti", "Treats neck conditions"]
+        },
+        {
+          name: "Uro Pichu",
+          description: "Continuous application of cotton soaked in warm medicated oil on the CHEST. Same as Uro Basti.",
+          duration: "30 mins",
+          price: "Rs. 2000",
+          benefits: ["Alternative to Uro Basti", "Treats chest conditions"]
+        },
+        {
+          name: "Kati Pichu",
+          description: "Continuous application of cotton soaked in warm medicated oil on the LOWER BACK. Same as Kati Basti.",
+          duration: "30 mins",
+          price: "Rs. 2000",
+          benefits: ["Alternative to Kati Basti", "Treats lower back issues"]
+        },
+        {
+          name: "Janu Pichu (Two therapists)",
+          description: "Continuous application of cotton soaked in warm medicated oil on the KNEE. Same as Janu Basti.",
+          duration: "30 mins",
+          price: "Rs. 2500",
+          benefits: ["Alternative to Janu Basti", "Treats knee problems"]
+        },
+        {
+          name: "Pichu Over Pain Area",
+          description: "Continuous application of cotton soaked in warm medicated oil on the PAIN AREA. Pain in areas such as ankle, sole, elbow etc.",
+          duration: "30 mins",
+          price: "Rs. 2000",
+          benefits: ["Targeted pain relief", "Localized treatment"]
+        }
+      ]
+    },
+    {
+      id: "pinda-sweda",
+      title: "Pinda Sweda - Herbal Bolus Massage",
+      image: "/src/assets/ayurvedic-massage.jpg",
+      description: "Therapeutic massage with herbal boluses for deep healing.",
+      services: [
+        {
+          name: "Valuka Pinda Sweda",
+          description: "EXTREMELY DRY potli treatment with sand. Rheumatoid arthritis (joint with swelling), joint inflammation with heaviness.",
+          duration: "60 mins",
+          price: "Rs. 3500",
+          benefits: ["Treats rheumatoid arthritis", "Reduces joint inflammation and swelling"]
+        },
+        {
+          name: "Choorna Pinda Sweda",
+          description: "DRY potli treatment with powders of medicinal herbs. Swelling, muscle stiffness.",
+          duration: "60 mins",
+          price: "Rs. 4500",
+          benefits: ["Reduces swelling and muscle stiffness"]
+        },
+        {
+          name: "Jambeir Pinda Sweda",
+          description: "DRY AND SWEAT INDUCING potli treatment with Lemon. Dry eye syndrome, cough, flu, headache, fever.",
+          duration: "60 mins",
+          price: "Rs. 4500",
+          benefits: ["Treats dry eye syndrome", "Helps with flu and fever"]
+        },
+        {
+          name: "Patra Pinda Sweda",
+          description: "SWEAT INDUCING potli treatment with medicinal leaves. Post surgery, post paralysis, dry skin or very prolapse.",
+          duration: "60 mins",
+          price: "Rs. 4500",
+          benefits: ["Post-surgery recovery", "Treats paralysis", "Improves skin condition"]
+        },
+        {
+          name: "Tila Potli Massage",
+          description: "WARM AND UNCTUOUS potli massage with sesame seeds immersed in ayurvedic oil. post surgery, post-paralysis, dry skin or very prolapse.",
+          duration: "60 mins",
+          price: "Rs. 4500",
+          benefits: ["Deep nourishment", "Post-surgical healing"]
+        },
+        {
+          name: "Sarsapa Potli Massage",
+          description: "HEATING AND STIMULATING potli massage with mustard seeds used dry. Stiffness, cellulite, obesity, muscle cramps, sluggish circulation, cold extremities.",
+          duration: "60 mins",
+          price: "Rs. 4000",
+          benefits: ["Reduces cellulite and obesity", "Improves circulation", "Treats muscle stiffness"]
+        }
+      ]
+    },
+    {
+      id: "lepa",
+      title: "Lepa - Herbal Paste Application",
+      image: "/src/assets/ayurvedic-massage.jpg",
+      description: "Therapeutic herbal paste treatments for various conditions.",
+      services: [
+        {
+          name: "Lepa",
+          description: "Application of medicated paste made of herbs and oils over a painful or inflamed area, then covered with leaves or cloth and left for a specific period. (Not for open wounds and inflammation with redness)",
+          duration: "30 mins",
+          price: "Rs. 2000",
+          benefits: ["Reduces inflammation", "Pain relief", "Natural healing"]
+        },
+        {
+          name: "Upanaha Lepa",
+          description: "Upanaha and contraindication (swida efbow, bhardo, reddness), local inflammation and pain, sprain, sports injuries.",
+          duration: "30 mins",
+          price: "Rs. 2000",
+          benefits: ["Treats sports injuries", "Reduces local inflammation"]
+        }
+      ]
+    },
+    {
+      id: "sensory-treatment",
+      title: "Sensory Organs Treatment",
+      image: "/src/assets/ayurvedic-massage.jpg",
+      description: "Specialized treatments for eyes, nose, and other sensory organs.",
+      services: [
+        {
+          name: "Nasya",
+          description: "Nasal administration of medicated oils/ghee for disorders of head, neck, brain, nose, throat, and sensory organs, because the nose is considered the gateway to the brain. ENT- Chronic sinusitis, allergic rhinitis, nasal congestion and sneezing. Nose- Nasal polyps, inflammation and mucosal overgrowth, chronic cold/cough, strengthens nasal immunity, blocked nose. Eyes- Blurred vision, improves ocular strength, dry, red, or inflamed eyes. Ears- Tinnitus, hearing loss. Head- Headache, migraine, insomnia, dizziness, anxiety, memory loss, poor concentration, epilepsy. Hair loss, premature graying, dandruff, dry scalp.",
+          duration: "30 mins",
+          price: "Rs. 2000",
+          benefits: ["Treats chronic sinusitis", "Improves vision", "Reduces headaches and migraines", "Strengthens sensory organs"]
+        },
+        {
+          name: "Netra Tarpana",
+          description: "Retention of medicated ghee on the eyes for a specific period. Dryness- Dry eye syndrome, restores tear film and moisture, treats digital eye strain, post-surgery dryness. Fatigue- Relieves burning, watering, blurred vision, heaviness caused by a screen overuse. Strength- Improves ocular muscle strength, prevents ptosis/droopy eyelids, works against macular degeneration, allergic or seasonal conjunctivitis.",
+          duration: "30 mins",
+          price: "Rs. 2500",
+          benefits: ["Treats dry eye syndrome", "Improves ocular strength", "Reduces digital eye strain", "Prevents macular degeneration"]
+        }
+      ]
+    },
+    {
+      id: "yoga-breathwork",
+      title: "Yoga & Breathwork",
+      image: "/src/assets/yoga-breathwork.jpg",
+      description: "One-on-one yoga and pranayama practice based on specific illness or for general wellness.",
+      services: [
+        {
+          name: "Vikruti Specific Yoga & Pranayama",
+          description: "Correct yoga and pranayama can heal you while wrong ones can aggravate the doshas. Vata-Pitta- Calming poses. Kapha- Energizing poses and breath.",
+          duration: "60 mins",
+          price: "Rs. 2000",
+          benefits: ["Personalized for your dosha", "Targeted healing approach", "Prevents dosha aggravation"]
+        }
+      ]
+    },
+    {
+      id: "meditation",
+      title: "Meditation",
+      image: "/src/assets/yoga-breathwork.jpg",
+      description: "Guided relaxation and meditative practice to calm the mind and restore balance.",
+      services: [
+        {
+          name: "Yog Nidra",
+          description: "Calms the nervous system, reduces stress hormones, increases mood-boosting hormones, helps resolve mental-emotional blocks, promotes healing and regeneration at a cellular level. Anxiety, insomnia, hypertension, chronic pain, diabetes, hormonal imbalance, addiction.",
+          duration: "30 mins",
+          price: "Rs. 1500",
+          benefits: ["Reduces stress hormones", "Improves mood", "Helps with chronic conditions", "Cellular regeneration"]
+        }
+      ]
+    },
+    {
+      id: "packages",
+      title: "Treatment Packages",
+      image: "/src/assets/ayurvedic-consultation.jpg",
+      description: "Comprehensive treatment packages designed for optimal healing and wellness.",
+      services: [
+        {
+          name: "Therapy Package",
+          description: "3-14 day treatment designed to target the root cause as per consultation/doctor advice. Ayurveda emphasizes long-term prevention so we just not to relieve symptoms but also to prevent recurrence. Example: Shirodhara (mild -7 sessions, moderate -14 sessions, severe migraine -21 sessions). Initial sessions calm the nervous system and reduce Vata-Pitta imbalance. Continued sessions deepen the effect on stress hormones, sleep regulation, and gain thresholds. Optimal sessions end which symptoms and offer long-term protection against Vata-Pitta imbalance.",
+          duration: "30-60 mins",
+          price: "Price depending on the treatment",
+          benefits: ["Targets root causes", "Long-term prevention", "Systematic healing approach", "Sustained results"]
         }
       ]
     }
@@ -243,7 +572,7 @@ const AyurvedicServices = () => {
                                     )}
                                     {service.price && (
                                       <Badge variant="secondary" className="bg-nepveda-gold/10 text-nepveda-gold border-nepveda-gold/20">
-                                        <DollarSign className="h-3 w-3 mr-1" />
+                                        <IndianRupee className="h-3 w-3 mr-1" />
                                         {service.price}
                                       </Badge>
                                     )}
