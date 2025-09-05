@@ -78,13 +78,20 @@ const AyurvedicServices = () => {
       services: [
         {
           name: "Abhyanga",
-          description: "Full body massage - including head and foot- with ayurvedic oil based on the dosha imbalance. Body ache, stiffness, difficulty in movement, joint pain, numbness, insomnia, loss of sensation, hair structure, dry skin, Vata aggravation.",
+          description: "Full body massage - including head and foot- with ayurvedic oil based on the dosha imbalance. Body ache, stiffness, difficulty in movement, joint pain, numbness, insomnia, loss of sensation, lean structure, dry skin, Vata aggravation.",
           duration: "60 mins",
           price: "Rs. 3500",
           benefits: ["Relieves body ache and stiffness", "Improves joint mobility", "Reduces insomnia", "Nourishes skin and hair"]
         },
         {
-          name: "Prasaootika Abhyanga",
+          name: "Abhyanga (Extended)",
+          description: "Full body massage - including head and foot- with ayurvedic oil based on the dosha imbalance. Body ache, stiffness, difficulty in movement, joint pain, numbness, insomnia, loss of sensation, lean structure, dry skin, Vata aggravation.",
+          duration: "90 mins",
+          price: "Rs. 4500",
+          benefits: ["Extended therapeutic benefits", "Deep tissue relaxation", "Enhanced dosha balancing", "Complete body restoration"]
+        },
+        {
+          name: "Prasootika Abhyanga",
           description: "Full body massage - post partum - with ayurvedic oil. Vata dosha, loss of strength after childbirth.",
           duration: "60 mins",
           price: "Rs. 3500",
@@ -92,16 +99,16 @@ const AyurvedicServices = () => {
         },
         {
           name: "Udvertana",
-          description: "Full body scrubbing with herbal powders. Kapha vitaara -Twin building, obesity, cellulite, rough skin, varicose veins, heaviness, lethargy, water retention, non-infectious skin disease with dead skin, dull skin, type 2 diabetes. Vata- vitaara ( oil based)- itching, PCOS, hypothyroidism, rheumatoid arthritis, irregular periods, peridonlianism, muscle weakness, fungal infection, burning syndrome.",
+          description: "Full body scrubbing with herbal powders. Kapha vikara -Toxin buildup, obesity, cellulite, rough skin, varicose veins, heaviness, lethargy, water retention, non-infectious skin disease with dead skin, dull skin, type 2 diabetes. Vata - vikara ( oil based) -Itching, PCOS, hypothyroidism, rheumatoid arthritis, irregular periods, parkinsonism, muscle dystrophy, crushing syndrome.",
           duration: "60 mins",
           price: "Rs. 3500",
           benefits: ["Reduces obesity and cellulite", "Improves skin texture", "Balances Kapha dosha", "Helps with metabolic disorders"]
         },
         {
-          name: "Ruksha Abhyanga",
-          description: "Full body dry massage including head and foot. Kapha, area foam, obesity, metabolic sluggishness or skin tissue.",
+          name: "Shuksha Abhyanga",
+          description: "Full body dry massage including head and foot. Kapha, ama (toxin), obesity, metabolic sluggishness or skin issues.",
           duration: "30 mins",
-          price: "Rs. 1500",
+          price: "Rs. 1500 (with other treatment)",
           benefits: ["Stimulates metabolism", "Reduces Kapha imbalance", "Improves circulation"]
         }
       ]
