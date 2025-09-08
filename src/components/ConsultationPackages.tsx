@@ -11,16 +11,30 @@ const YogaBreathworkCard = () => {
     {
       title: "VIKRUTI SPECIFIC YOGA & PRANAYAM",
       duration: "60 mins",
-      price: "Rs. 10,000",
-      packageInfo: "(7-day package)",
-      description: "One-on-one yoga, pranayama and meditation practice based on specific illness or general wellness. Correct yoga and pranayama can heal you while wrong ones can aggravate the doshas."
+      price: "Rs. 2000",
+      packageInfo: "",
+      description: "Tailored yoga and pranayama for specific dosha conditions"
     },
     {
-      title: "YOG NIDRA MEDITATION",
+      title: "MEDITATION",
       duration: "30 mins",
       price: "Rs. 2000",
       packageInfo: "",
-      description: "Guided meditation that calms the nervous system, reduces stress hormones, increases mood-boosting hormones, helps resolve mental-emotional blocks, promotes healing and regeneration at a cellular level. Benefits include: Anxiety & PTSD reduction, Insomnia relief through delta-wave brain states, Hypertension & blood pressure management, Chronic pain relief, Diabetes management through stress relief, and Hormonal balance regulation."
+      description: "Guided relaxation, reduces stress, promotes healing"
+    },
+    {
+      title: "YOGA NIDRA",
+      duration: "30 mins",
+      price: "Rs. 1500",
+      packageInfo: "(with other treatment)",
+      description: "Deep relaxation, balances hormones, reduces anxiety, helps insomnia"
+    },
+    {
+      title: "THERAPY PACKAGE",
+      duration: "30–60 mins",
+      price: "Price depending on treatment",
+      packageInfo: "",
+      description: "3–14 day treatment designed as per consultation, includes therapies like Shirodhara, massage, Swedana."
     }
   ];
 
@@ -122,26 +136,26 @@ const ConsultationPackages = () => {
     {
       title: "CONSULTATION WITH A HOLISTIC AYURVEDIC COACH",
       practitioner: "Ms. Shailja Pradhan",
-      credentials: "HAC & ADM, Kerala Ayurveda Academy",
-      duration: "90 mins",
-      price: "Rs. 2500",
-      description: "Discover balance and vitality through personalized guidance in diet, lifestyle, and emotional well-being—perfect for those seeking long-term wellness."
+      credentials: "Holistic Ayurvedic Coach & Ayurvedic Disease Management Practitioner (Kerala Ayurveda Academy)",
+      duration: "120 mins",
+      price: "Rs. 3000",
+      description: "Discover balance and vitality through personalized guidance on diet, lifestyle, and emotional well-being with a passionate health coach who empowers individuals to claim their health naturally using the ancient science of Ayurveda."
     },
     {
-      title: "CONSULTATION WITH A TRADITIONAL VAIDYA",
+      title: "PRIVATE CONSULTATION WITH A TRADITIONAL VAIDYA",
       practitioner: "Vaidya Madhu Bajracharya",
       credentials: "Traditional Vaidya",
-      duration: "20 mins",
-      price: "Rs 1500",
-      description: "Experience the wisdom of classical Ayurveda with a traditional Vaidya who uses time-tested herbal medicines and therapies to address the root cause of your disease and restore health."
+      duration: "30 mins",
+      price: "Rs. 1500",
+      description: "Experience the wisdom of classical Nepali Ayurveda with an experienced Vaidya possessing generational knowledge, who uses time-tested herbal medicines and therapies to address the root cause of your disease and restore health."
     },
     {
-      title: "CONSULTATION WITH AN AYURVEDIC DOCTOR",
+      title: "PRIVATE CONSULTATION WITH AN AYURVEDIC DOCTOR",
       practitioner: "Dr. Hari Sharan Aryal",
-      credentials: "MD, Internal Medicine Ayurveda, Anorectal expert",
-      duration: "20 mins",
-      price: "Rs 1500",
-      description: "Get expert medical insight from an experienced ayurvedic doctor who blends ancient diagnostics with modern tools to offer safe, personalized treatment for chronic and complex conditions."
+      credentials: "MD, Internal Medicine (Ayurveda), Anorectal expert",
+      duration: "30 mins",
+      price: "Rs. 1500",
+      description: "Get expert medical insight from one of Nepal's best Ayurvedic doctors, who blends ancient diagnostics with modern tools to offer safe, personalized treatment for chronic and complex conditions."
     }
   ];
 
