@@ -35,31 +35,31 @@ const Services = () => {
       services: [
         {
           name: "ABHYANGA",
-          description: "Full body ayurvedic massage including head and foot with a personalized therapeutic oil",
-          benefits: "Body aches, stiffness, difficulty in movement, joint pain, numbness, insomnia, loss of sensation, lean structure, dry skin",
+          description: "Full body massage – including head and foot – with ayurvedic oil based on the dosha imbalance",
+          benefits: "Body ache, stiffness, difficulty in movement, joint pain, numbness, insomnia, loss of sensation, lean structure, dry skin, Vata aggravation",
           duration: "60 mins",
           price: "Rs. 3500"
         },
         {
           name: "PRASOOTIKA ABHYANGA",
-          description: "Whole body massage - post partum",
-          benefits: "Pacifies vata dosha, provides strength after childbirth",
+          description: "Full body massage – post partum – with ayurvedic oil",
+          benefits: "Vata dosha, loss of strength after childbirth",
+          duration: "60 mins",
+          price: "Rs. 4500"
+        },
+        {
+          name: "UDVARTANA",
+          description: "Full body scrubbing with herbal powders",
+          benefits: "Kapha vitiation, obesity, debility, cellulite, rough skin, varicose veins, heaviness, lethargy, water retention, non-infectious skin diseases with dead skin, diabetes type 2",
           duration: "60 mins",
           price: "Rs. 3500"
         },
         {
-          name: "UDVERTANA",
-          description: "Whole body scrubbing with herbal powders",
-          benefits: "Kapha vikara - Toxin buildup, obesity, cellulite, rough skin, varicose veins, heaviness, lethargy, water retention, non-infectious skin disease with dead skin, dull skin, type 2 diabetes",
-          duration: "60 mins",
-          price: "Rs. 3500"
-        },
-        {
-          name: "PIZICHIL (N/A)",
-          description: "Oil bath therapy also known as king's treatment",
-          benefits: "Paralysis, hemiplegia, fibromyalgia, Parkinson's, ama (toxins) build up in tissues, pain, stiffness & muscular fatigue, muscle cramps, rigidity and discomfort in the limbs and spine, chronic",
-          duration: "60 mins",
-          price: "Rs. 6000"
+          name: "SHUKSHA ABHYANGA",
+          description: "Full body dry massage including head and foot",
+          benefits: "Kapha, ama (toxin) obesity, metabolic sluggishness, skin issues",
+          duration: "30 mins",
+          price: "Rs. 1500 (with other)"
         }
       ]
     },
@@ -70,18 +70,46 @@ const Services = () => {
       description: "Specialized head and scalp treatments for mental clarity and hair health",
       services: [
         {
-          name: "SHIRO ABHYANGA",
-          description: "Head massage with a personalized ayurvedic oil",
-          benefits: "Hair fall, dandruff, premature graying, dry skin, tinnitus, eye strain, lightheadedness or throbbing headache or pain in the eyes and temples, Insomnia, stress, anxiety, exhaustion",
-          duration: "45 mins",
-          price: "Rs. 2500 (2000 without shower)"
+          name: "SHIRO ABHYANGA (30 mins)",
+          description: "Head massage with ayurvedic oil based on the dosha imbalance",
+          benefits: "Hair fall, dandruff, premature greying, dryness, tinnitus, eye strain, headaches, insomnia, stress, anxiety, epilepsy, Parkinson's",
+          duration: "30 mins",
+          price: "Rs. 1500"
+        },
+        {
+          name: "SHIRO ABHYANGA (60 mins)",
+          description: "Head massage with ayurvedic oil based on the dosha imbalance (longer duration option)",
+          benefits: "Hair fall, dandruff, premature greying, dryness, tinnitus, eye strain, headaches, insomnia, stress, anxiety, epilepsy, Parkinson's",
+          duration: "60 mins",
+          price: "Rs. 3000"
         },
         {
           name: "SHIRO LEPA",
-          description: "Application of herbal paste to the scalp for gray hair fall and dandruff",
-          benefits: "Migraine, headache, Insomnia, stress & anxiety, depression, epilepsy (Apasmara), vertigo. Pitta Disorders- Burning sensation in the head, High fever (Jwara) with delirium",
+          description: "Application of herbal paste to the scalp for grey hair, hair fall, and dandruff",
+          benefits: "Vata disorders (headache, tension, insomnia, stress, anxiety, epilepsy, depression, vertigo). Pitta disorders (burning sensations, boils, inflammation, hair fall)",
           duration: "45 mins",
-          price: "Rs. 3000"
+          price: "Rs. 2500"
+        },
+        {
+          name: "SHIRODHARA",
+          description: "Continuous pouring of ayurvedic oil on the forehead, especially for vata conditions",
+          benefits: "Stress, insomnia, headache, menopause syndrome, paralysis, facial palsy, epilepsy, Parkinson's",
+          duration: "60 mins",
+          price: "Rs. 5000"
+        },
+        {
+          name: "TAKRADHARA",
+          description: "Continuous pouring of buttermilk infused with cooling ayurvedic herbs on the head, especially for Pitta and Vata",
+          benefits: "Anxiety, insomnia, irritability, headache, psoriasis, skin rash, heat, stress-related disorders",
+          duration: "60 mins",
+          price: "Rs. 4000"
+        },
+        {
+          name: "KSHEERADHARA",
+          description: "Continuous pouring of milk infused with herbs on the head, especially for Pitta disorders and Vata imbalance",
+          benefits: "Burning sensations, gastritis, excessive body heat, migraine, fatigue, emaciation, paralysis, neuropathic pain",
+          duration: "60 mins",
+          price: "Rs. 4000"
         }
       ]
     },
@@ -93,24 +121,24 @@ const Services = () => {
       services: [
         {
           name: "SAUNDARYA CHIKITSA",
-          description: "Full facial with ayurvedic herbs and oils that suit individual dosha",
-          benefits: "For pitta skin - Reduces redness, rashes, inflammatory acne, sensitivity, heat, irritation, pigmentation. For Vata Skin- Combats dryness, flakiness, fine lines; Improves circulation, tone, and skin elasticity; Nourishes deeply to restore glow and softness. For Kapha Skin -Clears clogged pores, blackheads, and excess oil; Reduces puffiness and",
+          description: "Facial with ayurvedic herbs and oils suited to doshas and skin conditions",
+          benefits: "Pitta (redness, heat, sensitivity, pigmentation); Vata (dryness, flakiness, fine lines)",
           duration: "60 mins",
           price: "Rs. 4000"
         },
         {
           name: "MARMA ABHYANGA",
-          description: "Facial massage on marma points with ayurvedic oil",
-          benefits: "Emotional blockages or fatigue, eye strain, blurred vision, dry eyes, sinus congestion, nasal blockage, allergic rhinitis, ear ringing, migraine, jaw tension and clenching, brow tension, neck and scalp tightness, facial fatigue, wrinkles, fine lines, puffiness",
-          duration: "20 mins",
-          price: "Rs. 1500"
+          description: "Facial massage on marma points using dosha-specific ayurvedic oil",
+          benefits: "Eye strain, sinus congestion, wrinkles, facial tightness, dull complexion",
+          duration: "30 mins",
+          price: "Rs. 2000"
         },
         {
           name: "KANSA ABHYANGA",
-          description: "Facial massage with a Kansa wand with ayurvedic oil",
-          benefits: "Puffiness around eyes and cheeks, accumulation of toxin (ama), sagging facial muscles, fine lines, wrinkles, fatigue, stress, anxiety, jaw tension, brow stiffness, eye strain, facial fatigue (Kansa is alkaline and helps neutralize skin acidity, it may cause a temporary greying effect implying acidic skin)",
-          duration: "20 mins",
-          price: "Rs. 1500"
+          description: "Facial massage with kansa wand using dosha-specific oil",
+          benefits: "Sagging muscles, wrinkles, fatigue, stress, anxiety, eye strain",
+          duration: "30 mins",
+          price: "Rs. 2000"
         }
       ]
     },
@@ -122,17 +150,24 @@ const Services = () => {
       services: [
         {
           name: "PADA ABHYANGA",
-          description: "Ayurvedic massage using warm, medicated oils applied with gentle to firm strokes",
-          benefits: "Dryness, cracks & roughness of feet, restless leg syndrome, numbness & tingling in limbs, diabetic neuropathy, sciatica & lower back pain, varicose veins (early stages), Insomnia, fatigue, body pain, headache, migraine, stress, anxiety, eye strain, dry eye",
-          duration: "45 mins",
-          price: "Rs. 2000"
+          description: "Foot massage/reflexology using ayurvedic oil",
+          benefits: "Dryness, cracked heels, restlessness, neuropathy, insomnia, migraine, stress, anxiety",
+          duration: "30 mins",
+          price: "Rs. 1500"
+        },
+        {
+          name: "PADA LEPA ABHYANGA",
+          description: "Medicated paste applied to feet with massage",
+          benefits: "Cracked heels, swelling, fungal infections",
+          duration: "30 mins",
+          price: "Rs. 3000"
         },
         {
           name: "PADA LEPA",
           description: "Anti-fungal paste applied on the feet",
-          benefits: "Fungal infection- Neem, turmeric, daruharidra kill fungal pathogens causing infections like athlete's foot, ringworm, or candida. Itching and Burning -Camphor and Licorice soothe itching, burning, irritation seen in fungal infections. Excess Moisture - Triphala and Neem help absorb excess moisture",
+          benefits: "Fungal infections, cracks, lesions",
           duration: "45 mins",
-          price: "Rs. 3000"
+          price: "Rs. 2500"
         }
       ]
     },
@@ -144,10 +179,10 @@ const Services = () => {
       services: [
         {
           name: "SWEDANA",
-          description: "Therapeutic steam bath in an ayurvedic steam chamber (time depending on your dosha)",
-          benefits: "Post-Abhyanga - Helps the medicated oils penetrate deeper and loosens toxins for elimination. Post-Udvartana -helps detox, fat breakdown, flush out loosened toxins and clear pores. Post-Pizhichil- Amplifies relaxation and pain relief, supports circulation and absorption of herbs. Post-Potli therapies -Enhances sweating and relieves musculoskeletal pain",
-          duration: "5 - 20 mins",
-          price: "Rs. 600"
+          description: "Therapeutic steam bath depending on dosha, detoxifies and clears pores",
+          benefits: "Obesity, joint stiffness, muscle pain, post-panchakarma detox",
+          duration: "5–20 mins",
+          price: "Rs. 500"
         }
       ]
     },
@@ -158,39 +193,39 @@ const Services = () => {
       description: "Localized oil pooling treatments for targeted healing",
       services: [
         {
-          name: "SHIRO BASTI",
-          description: "Continuous pooling of warm oil on the HEAD",
-          benefits: "Stress, anxiety, insomnia, burnout, depression, emotional fatigue, migraine, sinusitis, memory issues, psychosomatic diseases, chronic tension headache, migraines, facial palsy, cervical",
-          duration: "45 mins",
-          price: "Rs. 3500"
+          name: "SHIRO BASTI (two therapists)",
+          description: "Pooling of warm dosha-specific ayurvedic oil on the head",
+          benefits: "Stress, insomnia, depression, fatigue, migraine, psychosomatic diseases",
+          duration: "60 mins",
+          price: "Rs. 4000"
         },
         {
           name: "GRIVA BASTI",
-          description: "Continuous pooling of warm oil on the NECK",
-          benefits: "Neck stiffness and strain, cervical spondylitis, bone degeneration, radiating pain- tingling-or numbness in arms, vertigo due to cervical issues",
-          duration: "45 mins",
+          description: "Pooling of oil on the neck",
+          benefits: "Spondylitis, cervical pain, radiating numbness, vertigo",
+          duration: "30 mins",
           price: "Rs. 3000"
         },
         {
           name: "URO BASTI",
-          description: "Continuous pooling of warm oil on the CHEST",
-          benefits: "Palpitation, chest pain, bronchial asthma, chronic cough, dyspnea, thoracic spondylosis, chest stiffness, anxiety-related heart symptoms, panic attacks with chest discomfort, grief",
-          duration: "45 mins",
-          price: "Rs. 3000"
-        },
-        {
-          name: "JAANU BASTI",
-          description: "Continuous pooling of warm oil on the KNEES",
-          benefits: "Knee pain due to osteoarthritis, stiffness and crepitus, ligament tear, bone degeneration",
+          description: "Pooling of oil on the chest",
+          benefits: "Asthma, bronchitis, chest stiffness, cardiac discomfort",
           duration: "45 mins",
           price: "Rs. 3000"
         },
         {
           name: "KATI BASTI",
-          description: "Continuous pooling of warm oil on the LOWER BACK",
-          benefits: "Lumbar spondylitis, muscle stiffness, disc prolapse, osteoarthritis, ligament tear, bone degeneration",
-          duration: "45 mins",
+          description: "Pooling of oil on the lower back",
+          benefits: "Sciatica, spondylosis, back pain, degenerative issues",
+          duration: "30 mins",
           price: "Rs. 3000"
+        },
+        {
+          name: "JANU BASTI (two therapists)",
+          description: "Pooling of oil on the knees",
+          benefits: "Osteoarthritis, ligament tears, knee pain",
+          duration: "30 mins",
+          price: "Rs. 4000"
         }
       ]
     },
@@ -201,43 +236,43 @@ const Services = () => {
       description: "Continuous application of medicated oil with cotton for localized treatment",
       services: [
         {
-          name: "SHIRO PICHU",
-          description: "Continuous application of cotton soaked in warm medicated oil on the HEAD",
+          name: "SHIRO PICHU (two therapists)",
+          description: "Cotton pad soaked in medicated oil applied on the head",
           benefits: "Stress, anxiety, insomnia, memory issues, chronic headaches, migraines",
           duration: "30 mins",
           price: "Rs. 2500"
         },
         {
           name: "GRIVA PICHU",
-          description: "Continuous application of cotton soaked in warm medicated oil on the NECK",
+          description: "Cotton pad on the neck with warm oil",
           benefits: "Neck stiffness, cervical issues, tension headaches",
           duration: "30 mins",
           price: "Rs. 2000"
         },
         {
           name: "URO PICHU",
-          description: "Continuous application of cotton soaked in warm medicated oil on the CHEST",
+          description: "Cotton pad on the chest with warm oil",
           benefits: "Chest congestion, respiratory issues, anxiety-related chest discomfort",
           duration: "30 mins",
           price: "Rs. 2000"
         },
         {
-          name: "JAANU PICHU",
-          description: "Continuous application of cotton soaked in warm medicated oil on the KNEE",
-          benefits: "Knee pain, stiffness, osteoarthritis symptoms",
-          duration: "30 mins",
-          price: "Rs. 2000"
-        },
-        {
           name: "KATI PICHU",
-          description: "Continuous application of cotton soaked in warm medicated oil on the LOWER BACK",
+          description: "Cotton pad on the lower back",
           benefits: "Lower back pain, muscle stiffness, sciatica",
           duration: "30 mins",
           price: "Rs. 2000"
         },
         {
-          name: "PICHU IN A PAIN AREA",
-          description: "Continuous application of cotton soaked in warm medicated oil on the PAIN AREA such as ankle, sole, chest, elbow etc.",
+          name: "JANU PICHU (two therapists)",
+          description: "Cotton pad on the knees",
+          benefits: "Knee pain, stiffness, osteoarthritis symptoms",
+          duration: "30 mins",
+          price: "Rs. 2500"
+        },
+        {
+          name: "PICHU (Pain Area)",
+          description: "Cotton pad applied over specific painful area",
           benefits: "Localized pain relief, inflammation reduction, improved circulation",
           duration: "30 mins",
           price: "Rs. 2000"
@@ -252,50 +287,43 @@ const Services = () => {
       services: [
         {
           name: "VALUKA PINDA SWEDA",
-          description: "EXTREMELY DRY potli treatment with sand",
+          description: "Dry bolus massage with sand heated in oil, reduces heaviness",
           benefits: "Rheumatoid arthritis (Pain with swelling), Joint inflammation with heaviness",
           duration: "60 mins",
           price: "Rs. 3500"
         },
         {
           name: "CHOORNA PINDA SWEDA",
-          description: "DRY potli (bolus) treatment with powders of medicinal herbs",
+          description: "Dry bolus massage with herbs",
           benefits: "Sciatica, spondylitis, arthritis, LBA, muscle stiffness",
           duration: "60 mins",
-          price: "Rs. 4000"
+          price: "Rs. 4500"
         },
         {
-          name: "JAMBIR PINDA SWEDA",
-          description: "DRY AND SWEAR INDUCING potli treatment with Lemon",
+          name: "JAMBIRA PINDA SWEDA",
+          description: "Massage with lemon bolus, relieves stiffness and kapha accumulation",
           benefits: "Cervical spondylitis, frozen shoulders, localized pain with kapha stagnation",
           duration: "60 mins",
-          price: "Rs. 4000"
+          price: "Rs. 4500"
         },
         {
           name: "PATRA PINDA SWEDA",
-          description: "SWEAT INDUCING potli (bolus) treatment with different medicinal leaves",
+          description: "Massage with herbal leaves, relieves pain and inflammation",
           benefits: "Rheumatoid & osteo arthritis, Lumber & cervical spondylitis, myalgia (muscle pain)",
           duration: "60 mins",
-          price: "Rs. 4000"
+          price: "Rs. 4500"
         },
         {
-          name: "TILA POTLI MASSAGE",
-          description: "WARM AND UNCTUOUS potli massage with sesame seeds oil immersed in ayurvedic oil",
+          name: "TAPA PINDA SWEDA",
+          description: "Sweat-inducing massage with herbs",
           benefits: "Osteo-arthritis, sciatica, frozen shoulder, stiffness, spasms, chronic fatigue, muscle wasting or weakness, post-injury, post surgery, post-paralysis, dry skin or vata prakopa",
           duration: "60 mins",
-          price: "Rs. 4000"
+          price: "Rs. 4500"
         },
         {
           name: "SARSAPA POTLI MASSAGE",
-          description: "HEATING AND STIMULATING potli massage with sesame or mustard seeds used dry",
+          description: "Massage with warm mustard seeds, stimulates blood circulation",
           benefits: "Stiffness, cellulite, obesity, muscle cramps, sluggish circulation, cold extremities",
-          duration: "60 mins",
-          price: "Rs. 4000"
-        },
-        {
-          name: "SHASHTIKASHALI PINDA SWEDA",
-          description: "EXTREMELY UNCTUOUS AND SWEAT INDUCING potli treatment with special Kerala rice cooked in milk and herbal decoction",
-          benefits: "Neuromuscular and degenerative conditions: Paralysis, hemiplegia, multiple sclerosis, cerebral palsy, poliomyelitis, peripheral neuropathy",
           duration: "60 mins",
           price: "Rs. 4000"
         }
@@ -309,10 +337,10 @@ const Services = () => {
       services: [
         {
           name: "UPANAHA LEPA",
-          description: "Application of medicated paste made of herbs, oils over a painful or inflamed area, then covered with leaves or cloth and left for a specific period. (Not for open wounds and inflammation with redness)",
+          description: "Application of medicated paste over inflamed or painful area, covered with leaves and cloth",
           benefits: "Osteoarthritis, rheumatoid arthritis, cervical/lumbar spondylosis, frozen shoulder, Low back pain Sciatica, muscle spasms and contractures. Tennis elbow, bursitis, tendonitis, local inflammation and pain, sprains, sports injuries",
           duration: "30 mins",
-          price: "Rs. 2500"
+          price: "Rs. 2000"
         }
       ]
     },
@@ -324,17 +352,17 @@ const Services = () => {
       services: [
         {
           name: "NASYA",
-          description: "Nasal administration of medicated oils for disorders of head, neck, brain, nose, throat, and sensory organs, because the nose is considered the gateway to the brain",
-          benefits: "ENT-Chronic sinusitis, clears mucus from sinuses, allergic rhinitis, nasal congestion and sneezing. Nose: Nasal polyps, inflammation and mucosal overgrowth, frequent cold/cough, strengthens nasal immunity, blocked nose or deviated septum",
+          description: "Nasal administration of medicated oils/ghee",
+          benefits: "Sinusitis, rhinitis, migraine, eye disorders, memory loss, epilepsy",
           duration: "30 mins",
           price: "Rs. 2000"
         },
         {
           name: "NETRA TARPANA",
-          description: "Retention of medicated ghee on the eyes for a specific period",
-          benefits: "Dryness: Dry eye syndrome, restores tear film and moisture, treats digital eye strain, post-surgery dryness. Refractive errors: Myopia, hyperopia, astigmatism",
+          description: "Retention of medicated ghee on the eyes",
+          benefits: "Dry eyes, eye strain, cataracts, glaucoma, macular degeneration",
           duration: "30 mins",
-          price: "Rs. 2000"
+          price: "Rs. 2500"
         }
       ]
     }
