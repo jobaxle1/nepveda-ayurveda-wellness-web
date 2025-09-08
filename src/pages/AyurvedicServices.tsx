@@ -108,7 +108,7 @@ const AyurvedicServices = () => {
           name: "Shuksha Abhyanga",
           description: "Full body dry massage including head and foot. Kapha, ama (toxin), obesity, metabolic sluggishness or skin issues.",
           duration: "30 mins",
-          price: "Rs. 1500",
+          price: "Rs. 1500 (with other treatment)",
           benefits: ["Stimulates metabolism", "Reduces Kapha imbalance", "Improves circulation"]
         }
       ]
