@@ -128,31 +128,31 @@ const AyurvedicServices = () => {
         },
         {
           name: "Shiro Lepa",
-          description: "Application of herbal paste to the scalp for grey hair, hair fall, and dandruff. Conditions: Vata disorders (headache, tension, insomnia, stress, anxiety, epilepsy, depression, vertigo). Pitta disorders (burning sensations, boils, inflammation, hair fall).",
+          description: "Application of herbal paste to the scalp for grey hair, hair fall, and dandruff",
           duration: "45 mins",
           price: "Rs. 2500",
-          benefits: ["Treats hair fall and dandruff", "Prevents premature graying", "Heals scalp conditions"]
+          benefits: ["Vata disorders (headache, tension, insomnia, stress, anxiety, epilepsy, depression, vertigo)", "Pitta disorders (burning sensations, boils, inflammation, hair fall)"]
         },
         {
           name: "Shirodhara",
-          description: "Continuous pouring of ayurvedic oil on the forehead, especially for vata conditions. Conditions: Stress, insomnia, headache, menopause syndrome, paralysis, facial palsy, epilepsy, Parkinson's",
+          description: "Continuous pouring of ayurvedic oil on the forehead, especially for vata conditions",
           duration: "60 mins",
           price: "Rs. 5000",
-          benefits: ["Deep stress relief", "Treats insomnia and headaches", "Helps neurological disorders", "Calms the nervous system"]
+          benefits: ["Stress, insomnia, headache", "Menopause syndrome, paralysis, facial palsy", "Epilepsy, Parkinson's"]
         },
         {
           name: "Takradhara",
-          description: "Continuous pouring of buttermilk infused with cooling ayurvedic herbs on the head, especially for Pitta and Vata. Conditions: Anxiety, insomnia, irritability, headache, psoriasis, skin rash, heat, stress-related disorders",
+          description: "Continuous pouring of buttermilk infused with cooling ayurvedic herbs on the head, especially for Pitta and Vata",
           duration: "60 mins",
           price: "Rs. 4000",
-          benefits: ["Cools and calms the mind", "Treats Pitta imbalances", "Reduces mental stress", "Improves sleep quality"]
+          benefits: ["Anxiety, insomnia, irritability", "Headache, psoriasis, skin rash", "Heat, stress-related disorders"]
         },
         {
           name: "Ksheeradhara",
-          description: "Continuous pouring of milk infused with herbs on the head, especially for Pitta disorders and Vata imbalance. Conditions: Burning sensations, gastritis, excessive body heat, migraine, fatigue, emaciation, paralysis, neuropathic pain",
+          description: "Continuous pouring of milk infused with herbs on the head, especially for Pitta disorders and Vata imbalance",
           duration: "60 mins",
           price: "Rs. 4000",
-          benefits: ["Nourishes nervous system", "Treats stress disorders", "Enhances mental clarity", "Provides deep relaxation"]
+          benefits: ["Burning sensations, gastritis, excessive body heat", "Migraine, fatigue, emaciation", "Paralysis, neuropathic pain"]
         }
       ]
     },
