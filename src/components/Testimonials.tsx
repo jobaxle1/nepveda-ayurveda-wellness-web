@@ -13,11 +13,6 @@ const Testimonials = () => {
       text: "I am truly grateful to the Dr. Hari Sharan Aryal, for patiently listening to me, understanding my concerns, and giving me hope when I had become totally hopeless. The entire team at Nepveda is amazing. Thank you for being such an important part of my healing journey.",
       author: "Anamika Pradhan",
       rating: 5
-    },
-    {
-      text: "I finally feel a little peace like I no longer stress out over things like before",
-      author: "Anita K.",
-      rating: 5
     }
   ];
 
