@@ -122,6 +122,13 @@ const AyurvedicServices = () => {
         {
           name: "Shiro Abhyanga",
           description: "Head massage with ayurvedic oil based on the dosha imbalance. Hair fall, dandruff, premature graying, dry skin, tinnitus, eye strain, light-headedness or throbbing headache or pain in the eyes and temples, insomnia, stress, anxiety, exhaustion, loss of memory, decreased visual power, Epilepsy, Parkinson, Autism, geriatric disease. Memory loss, decreased visual power, hyper activity, burning sensation.",
+          duration: "30 mins",
+          price: "Rs. 1500",
+          benefits: ["Prevents hair fall and premature graying", "Reduces stress and anxiety", "Improves memory and visual power", "Treats neurological conditions"]
+        },
+        {
+          name: "Shiro Abhyanga",
+          description: "Head massage with ayurvedic oil based on the dosha imbalance. Hair fall, dandruff, premature graying, dry skin, tinnitus, eye strain, light-headedness or throbbing headache or pain in the eyes and temples, insomnia, stress, anxiety, exhaustion, loss of memory, decreased visual power, Epilepsy, Parkinson, Autism, geriatric disease. Memory loss, decreased visual power, hyper activity, burning sensation.",
           duration: "60 mins",
           price: "Rs. 3000",
           benefits: ["Prevents hair fall and premature graying", "Reduces stress and anxiety", "Improves memory and visual power", "Treats neurological conditions"]
@@ -139,6 +146,20 @@ const AyurvedicServices = () => {
           duration: "60 mins",
           price: "Rs. 5000",
           benefits: ["Deep stress relief", "Treats insomnia and headaches", "Helps neurological disorders", "Calms the nervous system"]
+        },
+        {
+          name: "Takradhara",
+          description: "Continuous pouring of medicated buttermilk on the forehead for Pitta-related conditions. Effective for mental stress, anxiety, insomnia, and various Pitta disorders.",
+          duration: "60 mins",
+          price: "Rs. 4000",
+          benefits: ["Cools and calms the mind", "Treats Pitta imbalances", "Reduces mental stress", "Improves sleep quality"]
+        },
+        {
+          name: "Ksheeradhara",
+          description: "Continuous pouring of medicated milk on the forehead. Beneficial for neurological conditions, stress-related disorders, and enhancing mental clarity.",
+          duration: "60 mins",
+          price: "Rs. 4000",
+          benefits: ["Nourishes nervous system", "Treats stress disorders", "Enhances mental clarity", "Provides deep relaxation"]
         }
       ]
     },
@@ -180,9 +201,16 @@ const AyurvedicServices = () => {
         {
           name: "Pada Abhyanga",
           description: "Foot massage/reflexology using ayurvedic oil. Dryness, cracks & roughness of feet, restless leg syndrome, numbness & tingling in limbs, diabetic neuropathy, sciatica & lower back pain, varicose veins (heavy-staged), insomnia, fatigue, body pain, headache, migraine, stress, anxiety, eye strain, sleep disorders.",
-          duration: "60 mins",
-          price: "Rs. 3000",
+          duration: "30 mins",
+          price: "Rs. 1500",
           benefits: ["Relieves restless leg syndrome", "Treats diabetic neuropathy", "Reduces stress and insomnia", "Improves circulation"]
+        },
+        {
+          name: "Pada Lepa Abhyanga",
+          description: "Combination therapy involving herbal paste application followed by foot massage. Effective for foot conditions, improving circulation, and therapeutic relaxation.",
+          duration: "30 mins",
+          price: "Rs. 3000",
+          benefits: ["Comprehensive foot treatment", "Improves circulation", "Treats various foot conditions", "Therapeutic benefits"]
         },
         {
           name: "Pada Lepa",
@@ -224,7 +252,7 @@ const AyurvedicServices = () => {
         {
           name: "Griva Basti",
           description: "Continuous pooling of warm dosha-specific ayurvedic oil on the NECK. Neck stiffness and strain, cervical spondylitis, bone degeneration, radiating pain- tingling or numbness in arms, vertigo due to cervical issues.",
-          duration: "45 mins",
+          duration: "30 mins",
           price: "Rs. 3000",
           benefits: ["Relieves neck stiffness", "Treats cervical spondylitis", "Reduces radiating pain"]
         },
@@ -238,14 +266,14 @@ const AyurvedicServices = () => {
         {
           name: "Kati Basti",
           description: "Continuous pooling of warm dosha-specific ayurvedic oil on the LOWER BACK. Lower spine/disk, muscle stiffness, disc prolapse, osteoarthritis, rigidity, heel- bone degeneration.",
-          duration: "45 mins",
+          duration: "30 mins",
           price: "Rs. 3000",
           benefits: ["Treats lower back pain", "Helps disc problems", "Reduces muscle stiffness"]
         },
         {
           name: "Janu Basti (Two therapists)",
           description: "Continuous pooling of warm dosha-specific ayurvedic oil on the KNEES. Knee pain due to osteoarthritis, stiffness and crepitus, ligament tear, bone degeneration.",
-          duration: "60 mins",
+          duration: "30 mins",
           price: "Rs. 4000",
           benefits: ["Treats knee pain and stiffness", "Helps osteoarthritis", "Improves joint mobility"]
         }
@@ -417,10 +445,17 @@ const AyurvedicServices = () => {
       description: "Guided relaxation and meditative practice to calm the mind and restore balance.",
       services: [
         {
-          name: "Yog Nidra",
+          name: "Meditation",
+          description: "Guided meditation practice to calm the mind, reduce stress, and promote inner peace. Helps with anxiety, mental clarity, emotional balance, and spiritual well-being.",
+          duration: "30 mins",
+          price: "Rs. 2000",
+          benefits: ["Reduces stress and anxiety", "Improves mental clarity", "Promotes emotional balance", "Enhances spiritual well-being"]
+        },
+        {
+          name: "Yoga Nidra",
           description: "Calms the nervous system, reduces stress hormones, increases mood-boosting hormones, helps resolve mental-emotional blocks, promotes healing and regeneration at a cellular level. Anxiety, insomnia, hypertension, chronic pain, diabetes, hormonal imbalance, addiction.",
           duration: "30 mins",
-          price: "Rs. 1500",
+          price: "Rs. 1500 (with other treatment)",
           benefits: ["Reduces stress hormones", "Improves mood", "Helps with chronic conditions", "Cellular regeneration"]
         }
       ]
