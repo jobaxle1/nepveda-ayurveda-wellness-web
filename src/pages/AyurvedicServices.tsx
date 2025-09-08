@@ -230,7 +230,7 @@ const AyurvedicServices = () => {
         {
           name: "Swedana",
           description: "Therapeutic steam bath in a steam chamber (time depending on your dosha). Post-Udvertana -helps detox, fat breakdown, flush out loosened toxins and clear pores. Post-Abhyanga- Amplifies relaxation and pain relief, supports circulation and absorption of herbs. Post-Pichu therapies -Enhances sweating and relieves musculoskeletal pain.",
-          duration: "5 - 20 mins",
+          duration: "5–20 mins",
           price: "Rs. 500",
           benefits: ["Detoxification", "Fat breakdown", "Pain relief", "Improved circulation"]
         }
@@ -321,7 +321,7 @@ const AyurvedicServices = () => {
           benefits: ["Alternative to Janu Basti", "Treats knee problems"]
         },
         {
-          name: "Pichu Over Pain Area",
+          name: "Pichu (Pain Area)",
           description: "Continuous application of cotton soaked in warm medicated oil on the PAIN AREA. Pain in areas such as ankle, sole, elbow etc.",
           duration: "30 mins",
           price: "Rs. 2000",
@@ -350,7 +350,7 @@ const AyurvedicServices = () => {
           benefits: ["Reduces swelling and muscle stiffness"]
         },
         {
-          name: "Jambeir Pinda Sweda",
+          name: "Jambira Pinda Sweda",
           description: "DRY AND SWEAT INDUCING potli treatment with Lemon. Dry eye syndrome, cough, flu, headache, fever.",
           duration: "60 mins",
           price: "Rs. 4500",
@@ -364,7 +364,7 @@ const AyurvedicServices = () => {
           benefits: ["Post-surgery recovery", "Treats paralysis", "Improves skin condition"]
         },
         {
-          name: "Tila Potli Massage",
+          name: "Tapa Pinda Sweda",
           description: "WARM AND UNCTUOUS potli massage with sesame seeds immersed in ayurvedic oil. post surgery, post-paralysis, dry skin or very prolapse.",
           duration: "60 mins",
           price: "Rs. 4500",
@@ -430,7 +430,7 @@ const AyurvedicServices = () => {
       description: "One-on-one yoga and pranayama practice based on specific illness or for general wellness.",
       services: [
         {
-          name: "Vikruti Specific Yoga & Pranayama",
+          name: "Vikruti Specific Yoga & Pranayam",
           description: "Correct yoga and pranayama can heal you while wrong ones can aggravate the doshas. Vata-Pitta- Calming poses. Kapha- Energizing poses and breath.",
           duration: "60 mins",
           price: "Rs. 2000",
@@ -469,8 +469,8 @@ const AyurvedicServices = () => {
         {
           name: "Therapy Package",
           description: "3-14 day treatment designed to target the root cause as per consultation/doctor advice. Ayurveda emphasizes long-term prevention so we just not to relieve symptoms but also to prevent recurrence. Example: Shirodhara (mild -7 sessions, moderate -14 sessions, severe migraine -21 sessions). Initial sessions calm the nervous system and reduce Vata-Pitta imbalance. Continued sessions deepen the effect on stress hormones, sleep regulation, and gain thresholds. Optimal sessions end which symptoms and offer long-term protection against Vata-Pitta imbalance.",
-          duration: "30-60 mins",
-          price: "Price depending on the treatment",
+          duration: "30–60 mins",
+          price: "Price depending on treatment",
           benefits: ["Targets root causes", "Long-term prevention", "Systematic healing approach", "Sustained results"]
         }
       ]
