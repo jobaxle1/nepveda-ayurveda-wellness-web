@@ -17,10 +17,6 @@ const PhotoCarousel = () => {
     {
       src: "/lovable-uploads/5255ffdb-5261-4483-bfc5-1a2efcce59be.png",
       alt: "Shirodhara oil treatment"
-    },
-    {
-      src: "/lovable-uploads/b5763403-da42-42be-8dda-3a56d916bb49.png",
-      alt: "Traditional Ayurvedic herbs and tools"
     }
   ];
 
