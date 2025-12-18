@@ -36,9 +36,9 @@ const Services = () => {
         {
           name: "ABHYANGA",
           description: "Full body massage – including head and foot – with ayurvedic oil based on the dosha imbalance",
-          benefits: "Body ache, stiffness, difficulty in movement, joint pain, numbness, insomnia, loss of sensation, lean structure, dry skin, Vata aggravation",
-          duration: "60 mins",
-          price: "Rs. 3500"
+          benefits: "Body ache, stiffness, difficulty in movement, joint pain, dry skin, Vata aggravation",
+          duration: "60 mins / 90 mins",
+          price: "Rs. 3,500 / Rs. 4,500"
         },
         {
           name: "PRASOOTIKA ABHYANGA",
@@ -48,11 +48,11 @@ const Services = () => {
           price: "Rs. 4500"
         },
         {
-          name: "UDVARTANA",
-          description: "Full body scrubbing with herbal powders",
-          benefits: "Kapha vitiation, obesity, debility, cellulite, rough skin, varicose veins, heaviness, lethargy, water retention, non-infectious skin diseases with dead skin, diabetes type 2",
+          name: "UDVERTANA",
+          description: "Full body SCRUB WITH HERBAL POWDERS",
+          benefits: "Kapha vikara - Toxin buildup, obesity, cellulite, rough skin, type 2 diabetes",
           duration: "60 mins",
-          price: "Rs. 3500"
+          price: "Rs. 3,500"
         },
         {
           name: "SHUKSHA ABHYANGA",
@@ -70,18 +70,11 @@ const Services = () => {
       description: "Specialized head and scalp treatments for mental clarity and hair health",
       services: [
         {
-          name: "SHIRO ABHYANGA (30 mins)",
-          description: "Head massage with ayurvedic oil based on the dosha imbalance",
-          benefits: "Hair fall, dandruff, premature greying, dryness, tinnitus, eye strain, headaches, insomnia, stress, anxiety, epilepsy, Parkinson's",
-          duration: "30 mins",
-          price: "Rs. 1500"
-        },
-        {
-          name: "SHIRO ABHYANGA (60 mins)",
-          description: "Head massage with ayurvedic oil based on the dosha imbalance (longer duration option)",
-          benefits: "Hair fall, dandruff, premature greying, dryness, tinnitus, eye strain, headaches, insomnia, stress, anxiety, epilepsy, Parkinson's",
-          duration: "60 mins",
-          price: "Rs. 3000"
+          name: "SHIRO ABHYANGA",
+          description: "Head and shoulder massage with ayurvedic oil based on the dosha imbalance",
+          benefits: "Hair fall, dandruff, premature greying, dryness, tinnitus, eye strain, headaches, insomnia, stress, anxiety",
+          duration: "30 mins / 60 mins",
+          price: "Rs. 1,500 / Rs. 2,500"
         },
         {
           name: "SHIRO LEPA",
@@ -91,25 +84,25 @@ const Services = () => {
           price: "Rs. 2500"
         },
         {
-          name: "SHIRODHARA",
-          description: "Continuous pouring of ayurvedic oil on the forehead, especially for vata conditions",
+          name: "SHIRODHARA (Two Therapists)",
+          description: "Continuous pouring of AYURVEDIC OIL on the forehead especially for Vata conditions",
           benefits: "Stress, insomnia, headache, menopause syndrome, paralysis, facial palsy, epilepsy, Parkinson's",
           duration: "60 mins",
-          price: "Rs. 5000"
+          price: "Rs. 5,000"
         },
         {
-          name: "TAKRADHARA",
-          description: "Continuous pouring of buttermilk infused with cooling ayurvedic herbs on the head, especially for Pitta and Vata",
+          name: "TAKRADHARA (Two Therapists)",
+          description: "Continuous pouring of BUTTERMILK infused with cooling ayurvedic herbs on the head, especially for Pitta and Vata combined conditions",
           benefits: "Anxiety, insomnia, irritability, headache, psoriasis, skin rash, heat, stress-related disorders",
           duration: "60 mins",
-          price: "Rs. 4000"
+          price: "Rs. 4,000"
         },
         {
-          name: "KSHEERADHARA",
-          description: "Continuous pouring of milk infused with herbs on the head, especially for Pitta disorders and Vata imbalance",
+          name: "KSHEERADHARA (Two Therapists)",
+          description: "Continuous pouring of MILK infused with cooling and nourishing herbs on the head. Pitta disorders: Burning sensation in the head/body, hot flushes, inflammatory conditions, excessive body heat",
           benefits: "Burning sensations, gastritis, excessive body heat, migraine, fatigue, emaciation, paralysis, neuropathic pain",
           duration: "60 mins",
-          price: "Rs. 4000"
+          price: "Rs. 4,000"
         }
       ]
     },
@@ -135,10 +128,10 @@ const Services = () => {
         },
         {
           name: "KANSA ABHYANGA",
-          description: "Facial massage with kansa wand using dosha-specific oil",
-          benefits: "Sagging muscles, wrinkles, fatigue, stress, anxiety, eye strain",
+          description: "Facial massage with a KANSA WAND using dosha-specific ayurvedic oil",
+          benefits: "Puffiness around eyes and cheeks, accumulation of wrinkles, stress, anxiety, tension, facial fatigue",
           duration: "30 mins",
-          price: "Rs. 2000"
+          price: "Rs. 2,000"
         }
       ]
     },
@@ -152,8 +145,8 @@ const Services = () => {
           name: "PADA ABHYANGA",
           description: "Foot massage/reflexology using ayurvedic oil",
           benefits: "Dryness, cracked heels, restlessness, neuropathy, insomnia, migraine, stress, anxiety",
-          duration: "30 mins",
-          price: "Rs. 1500"
+          duration: "60 mins",
+          price: "Rs. 3,500"
         },
         {
           name: "PADA LEPA ABHYANGA",
@@ -165,9 +158,9 @@ const Services = () => {
         {
           name: "PADA LEPA",
           description: "Anti-fungal paste applied on the feet",
-          benefits: "Fungal infections, cracks, lesions",
+          benefits: "Fungal infection, itching and burning, excess moisture, cracks and lesions",
           duration: "45 mins",
-          price: "Rs. 2500"
+          price: "Rs. 2,500"
         }
       ]
     },

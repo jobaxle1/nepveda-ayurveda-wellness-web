@@ -32,24 +32,25 @@ const AyurvedicServices = () => {
       id: "consultation",
       title: "Ayurvedic Consultation",
       image: "/src/assets/ayurvedic-consultation.jpg",
-      description: "Discover balance and vitality through personalized guidance tailored to lifestyle and emotional well-being with a passionate health coach who empowers individuals to claim their health naturally using the ancient science of Ayurveda.",
+      description: "Personalized consultations to understand your unique constitution and health needs",
       services: [
         {
-          name: "Consultation with a Holistic Ayurvedic Coach",
-          description: "Holistic Ayurvedic Coach & Ayurvedic Diseases Management Practitioner (Kerala Ayurveda Academy)",
-          duration: "120 mins",
-          price: "Rs. 3000",
+          name: "Private Consultation with an Ayurvedic Doctor",
+          description: "Dr. Hari Sharan Aryal - MD, Internal Medicine (Ayurveda), Anorectal expert. Experience the wisdom of classical Nepali Ayurveda with an experienced Vaidya possessing generational knowledge, who uses time-tested herbal medicines to offer safe, personalized treatment for chronic and complex conditions.",
+          duration: "60 mins",
+          price: "Rs. 4,000",
           benefits: [
-            "Discover balance and vitality through personalized guidance",
-            "Lifestyle and emotional well-being coaching",
-            "Natural health empowerment using ancient Ayurvedic science"
+            "Expert medical insight from Nepal's best Ayurvedic doctor",
+            "Classical Nepali Ayurvedic wisdom",
+            "Time-tested herbal medicines",
+            "Safe, personalized treatment for chronic and complex conditions"
           ]
         },
         {
-          name: "Private Consultation with a Traditional Vaidya",
-          description: "Vaidya Meethu Bajracharya - Traditional Vaidya. Experience the wisdom of classical Nepali Ayurveda with an experienced Vaidya possessing generational knowledge, who uses time-tested herbal medicines and therapies to address the root cause of your disease and restore health.",
+          name: "Traditional Vaidya Consultation",
+          description: "Experience the wisdom of classical Nepali Ayurveda with an experienced Vaidya possessing generational knowledge, who uses time-tested herbal medicines to offer safe, personalized treatment for chronic and complex conditions.",
           duration: "30 mins",
-          price: "Rs. 1500",
+          price: "Rs. 1,500",
           benefits: [
             "Classical Nepali Ayurvedic wisdom",
             "Generational knowledge application",
@@ -58,14 +59,15 @@ const AyurvedicServices = () => {
           ]
         },
         {
-          name: "Private Consultation with an Ayurvedic Doctor",
-          description: "Dr. Hari Sharan Aryal - MD, Internal Medicine (Ayurveda), Ancestral expert. Get expert medical insight from one of Nepal's best Ayurvedic doctors, who blends ancient diagnostics with modern tools to offer safe, personalized treatment for chronic and complex conditions.",
-          duration: "30 mins",
-          price: "Rs. 1500",
+          name: "Consultation with a Holistic Ayurvedic Coach",
+          description: "Ms. Shailja Pradhan - Holistic Ayurvedic Coach & Ayurvedic Disease Management Practitioner (Kerala Ayurveda Academy). Discover balance and vitality through personalized guidance tailored to lifestyle and emotional well-being.",
+          duration: "3 sittings of 60 mins each",
+          price: "Rs. 5,000",
           benefits: [
-            "Expert medical insight from Nepal's best Ayurvedic doctor",
-            "Blend of ancient diagnostics with modern tools",
-            "Safe, personalized treatment for chronic conditions"
+            "Personalized lifestyle guidance",
+            "Emotional well-being coaching",
+            "Natural health empowerment",
+            "Ayurvedic disease management"
           ]
         }
       ]
@@ -78,9 +80,9 @@ const AyurvedicServices = () => {
       services: [
         {
           name: "Abhyanga",
-          description: "Full body massage – including head and foot – with ayurvedic oil based on the dosha imbalance. Conditions: Body ache, stiffness, difficulty in movement, joint pain, numbness, insomnia, loss of sensation, lean structure, dry skin, Vata aggravation",
-          duration: "60 mins",
-          price: "Rs. 3500",
+          description: "Full body MASSAGE - including head and foot - with ayurvedic oil based on the dosha imbalance. Conditions: Body ache, stiffness, difficulty in movement, joint pain, dry skin, Vata aggravation",
+          duration: "60 mins / 90 mins",
+          price: "Rs. 3,500 / Rs. 4,500",
           benefits: ["Relieves body ache and stiffness", "Improves joint mobility", "Reduces insomnia", "Nourishes skin and hair"]
         },
         {
@@ -91,10 +93,10 @@ const AyurvedicServices = () => {
           benefits: ["Post-partum recovery", "Restores strength after childbirth", "Balances Vata dosha"]
         },
         {
-          name: "Udvartana",
-          description: "Full body scrubbing with herbal powders. Conditions: Kapha vitiation, obesity, debility, cellulite, rough skin, varicose veins, heaviness, lethargy, water retention, non-infectious skin diseases with dead skin, diabetes type 2",
+          name: "Udvertana",
+          description: "Full body SCRUB WITH HERBAL POWDERS. Conditions: Kapha vikara - Toxin buildup, obesity, cellulite, rough skin, type 2 diabetes",
           duration: "60 mins",
-          price: "Rs. 3500",
+          price: "Rs. 3,500",
           benefits: ["Reduces obesity and cellulite", "Improves skin texture", "Balances Kapha dosha", "Helps with metabolic disorders"]
         },
         {
@@ -114,16 +116,9 @@ const AyurvedicServices = () => {
       services: [
         {
           name: "Shiro Abhyanga",
-          description: "Head massage with ayurvedic oil based on the dosha imbalance. Conditions: Hair fall, dandruff, premature greying, dryness, tinnitus, eye strain, headaches, insomnia, stress, anxiety, epilepsy, Parkinson's",
-          duration: "30 mins",
-          price: "Rs. 1500",
-          benefits: ["Prevents hair fall and premature graying", "Reduces stress and anxiety", "Improves memory and visual power", "Treats neurological conditions"]
-        },
-        {
-          name: "Shiro Abhyanga",
-          description: "Head massage with ayurvedic oil based on the dosha imbalance. Conditions: Hair fall, dandruff, premature greying, dryness, tinnitus, eye strain, headaches, insomnia, stress, anxiety, epilepsy, Parkinson's",
-          duration: "60 mins",
-          price: "Rs. 3000",
+          description: "Head and shoulder massage with ayurvedic oil based on the dosha imbalance. Conditions: Hair fall, dandruff, premature greying, dryness, tinnitus, eye strain, headaches, insomnia, stress, anxiety",
+          duration: "30 mins / 60 mins",
+          price: "Rs. 1,500 / Rs. 2,500",
           benefits: ["Prevents hair fall and premature graying", "Reduces stress and anxiety", "Improves memory and visual power", "Treats neurological conditions"]
         },
         {
@@ -134,24 +129,24 @@ const AyurvedicServices = () => {
           benefits: ["Vata disorders (headache, tension, insomnia, stress, anxiety, epilepsy, depression, vertigo)", "Pitta disorders (burning sensations, boils, inflammation, hair fall)"]
         },
         {
-          name: "Shirodhara",
-          description: "Continuous pouring of ayurvedic oil on the forehead, especially for vata conditions",
+          name: "Shirodhara (Two Therapists)",
+          description: "Continuous pouring of AYURVEDIC OIL on the forehead especially for Vata conditions",
           duration: "60 mins",
-          price: "Rs. 5000",
+          price: "Rs. 5,000",
           benefits: ["Stress, insomnia, headache", "Menopause syndrome, paralysis, facial palsy", "Epilepsy, Parkinson's"]
         },
         {
-          name: "Takradhara",
-          description: "Continuous pouring of buttermilk infused with cooling ayurvedic herbs on the head, especially for Pitta and Vata",
+          name: "Takradhara (Two Therapists)",
+          description: "Continuous pouring of BUTTERMILK infused with cooling ayurvedic herbs on the head, especially for Pitta and Vata combined conditions",
           duration: "60 mins",
-          price: "Rs. 4000",
+          price: "Rs. 4,000",
           benefits: ["Anxiety, insomnia, irritability", "Headache, psoriasis, skin rash", "Heat, stress-related disorders"]
         },
         {
-          name: "Ksheeradhara",
-          description: "Continuous pouring of milk infused with herbs on the head, especially for Pitta disorders and Vata imbalance",
+          name: "Ksheeradhara (Two Therapists)",
+          description: "Continuous pouring of MILK infused with cooling and nourishing herbs on the head. Pitta disorders: Burning sensation in the head/body, hot flushes, inflammatory conditions, excessive body heat",
           duration: "60 mins",
-          price: "Rs. 4000",
+          price: "Rs. 4,000",
           benefits: ["Burning sensations, gastritis, excessive body heat", "Migraine, fatigue, emaciation", "Paralysis, neuropathic pain"]
         }
       ]
@@ -178,9 +173,9 @@ const AyurvedicServices = () => {
         },
         {
           name: "Kansa Abhyanga",
-          description: "Facial massage with kansa wand using dosha-specific oil. Conditions: Sagging muscles, wrinkles, fatigue, stress, anxiety, eye strain",
+          description: "Facial massage with a KANSA WAND using dosha-specific ayurvedic oil. Conditions: Puffiness around eyes and cheeks, accumulation of wrinkles, stress, anxiety, tension, facial fatigue",
           duration: "30 mins",
-          price: "Rs. 2000",
+          price: "Rs. 2,000",
           benefits: ["Neutralizes skin acidity", "Reduces stress and anxiety", "Improves lymphatic drainage", "Natural anti-aging effects"]
         }
       ]
@@ -194,8 +189,8 @@ const AyurvedicServices = () => {
         {
           name: "Pada Abhyanga",
           description: "Foot massage/reflexology using ayurvedic oil. Conditions: Dryness, cracked heels, restlessness, neuropathy, insomnia, migraine, stress, anxiety",
-          duration: "30 mins",
-          price: "Rs. 1500",
+          duration: "60 mins",
+          price: "Rs. 3,500",
           benefits: ["Relieves restless leg syndrome", "Treats diabetic neuropathy", "Reduces stress and insomnia", "Improves circulation"]
         },
         {
@@ -207,9 +202,9 @@ const AyurvedicServices = () => {
         },
         {
           name: "Pada Lepa",
-          description: "Anti-fungal paste applied on the feet. Conditions: Fungal infections, cracks, lesions",
+          description: "Anti-fungal paste applied on the feet. Conditions: Fungal infection, itching and burning, excess moisture, cracks and lesions",
           duration: "45 mins",
-          price: "Rs. 2500",
+          price: "Rs. 2,500",
           benefits: ["Treats fungal infections", "Heals cracks and lesions", "Antifungal properties"]
         }
       ]
