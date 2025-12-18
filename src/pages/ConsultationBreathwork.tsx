@@ -35,27 +35,39 @@ const ConsultationBreathwork = () => {
       description: "Personalized consultations to understand your unique constitution and health needs",
       services: [
         {
-          name: "Initial Consultation",
-          description: "Comprehensive assessment of your dosha (constitution), current health status, and personalized treatment recommendations.",
-          duration: "60 minutes",
-          price: "Rs. 2500",
+          name: "Private Consultation with an Ayurvedic Doctor",
+          description: "Dr. Hari Sharan Aryal - MD, Internal Medicine (Ayurveda), Anorectal expert. Experience the wisdom of classical Nepali Ayurveda with an experienced Vaidya possessing generational knowledge, who uses time-tested herbal medicines to offer safe, personalized treatment for chronic and complex conditions.",
+          duration: "60 mins",
+          price: "Rs. 4,000",
           benefits: [
-            "Personalized dosha analysis",
-            "Dietary and lifestyle recommendations", 
-            "Treatment plan development",
-            "Health goal setting"
+            "Expert medical insight from Nepal's best Ayurvedic doctor",
+            "Classical Nepali Ayurvedic wisdom",
+            "Time-tested herbal medicines",
+            "Safe, personalized treatment for chronic and complex conditions"
           ]
         },
         {
-          name: "Follow-up Consultation",
-          description: "Review of progress, treatment adjustments, and continued guidance on your wellness journey.",
-          duration: "30 minutes", 
-          price: "Rs. 1500",
+          name: "Traditional Vaidya Consultation",
+          description: "Experience the wisdom of classical Nepali Ayurveda with an experienced Vaidya possessing generational knowledge, who uses time-tested herbal medicines to offer safe, personalized treatment for chronic and complex conditions.",
+          duration: "30 mins", 
+          price: "Rs. 1,500",
           benefits: [
-            "Progress evaluation",
-            "Treatment plan refinement",
-            "Ongoing support",
-            "Health maintenance guidance"
+            "Classical Nepali Ayurvedic wisdom",
+            "Generational knowledge application",
+            "Time-tested herbal medicines and therapies",
+            "Root cause disease treatment"
+          ]
+        },
+        {
+          name: "Consultation with a Holistic Ayurvedic Coach",
+          description: "Ms. Shailja Pradhan - Holistic Ayurvedic Coach & Ayurvedic Disease Management Practitioner (Kerala Ayurveda Academy). Discover balance and vitality through personalized guidance tailored to lifestyle and emotional well-being.",
+          duration: "3 sittings of 60 mins each",
+          price: "Rs. 5,000",
+          benefits: [
+            "Personalized lifestyle guidance",
+            "Emotional well-being coaching",
+            "Natural health empowerment",
+            "Ayurvedic disease management"
           ]
         }
       ]
