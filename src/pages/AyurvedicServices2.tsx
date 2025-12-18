@@ -191,42 +191,42 @@ const AyurvedicServices2 = () => {
       id: "basti",
       title: "Basti",
       image: "/src/assets/ayurvedic-massage.jpg",
-      description: "Pooling of warm dosha-specific ayurvedic oil on targeted body areas.",
+      description: "Continuous pooling of warm dosha-specific ayurvedic oil on targeted body areas for deep therapeutic healing.",
       services: [
         {
-          name: "Shiro Basti (two therapists)",
-          description: "Pooling of warm dosha-specific ayurvedic oil on the head",
-          duration: "60 mins",
-          price: "Rs. 4000",
-          benefits: ["Stress, insomnia, depression", "Fatigue, migraine, psychosomatic diseases"]
-        },
-        {
-          name: "Griva Basti",
-          description: "Pooling of oil on the neck",
-          duration: "30 mins",
-          price: "Rs. 3000",
-          benefits: ["Spondylitis, cervical pain", "Radiating numbness, vertigo"]
-        },
-        {
-          name: "Uro Basti",
-          description: "Pooling of oil on the chest",
+          name: "Shiro Basti (Two therapists)",
+          description: "Continuous pooling of warm dosha-specific ayurvedic oil on the HEAD",
           duration: "45 mins",
-          price: "Rs. 3000",
-          benefits: ["Asthma, bronchitis", "Chest stiffness, cardiac discomfort"]
+          price: "Rs. 4,500",
+          benefits: ["Stress, anxiety, insomnia, burnout, depression", "Psychosomatic diseases, chronic tension headache, migraines", "Facial palsy, cervical discopathies, strain, weak hair root"]
         },
         {
-          name: "Kati Basti",
-          description: "Pooling of oil on the lower back",
-          duration: "30 mins",
-          price: "Rs. 3000",
-          benefits: ["Sciatica, spondylosis", "Back pain, degenerative issues"]
+          name: "Griva Basti (Two therapists)",
+          description: "Continuous pooling of warm dosha-specific ayurvedic oil on the NECK",
+          duration: "45 mins",
+          price: "Rs. 3,500",
+          benefits: ["Tingling and pain in arms", "Vertigo due to cervical issues"]
         },
         {
-          name: "Janu Basti (two therapists)",
-          description: "Pooling of oil on the knees",
-          duration: "30 mins",
-          price: "Rs. 4000",
-          benefits: ["Osteoarthritis, ligament tears, knee pain"]
+          name: "Uro Basti (Two therapists)",
+          description: "Continuous pooling of warm dosha-specific ayurvedic oil on the CHEST",
+          duration: "45 mins",
+          price: "Rs. 3,500",
+          benefits: ["Related heart symptoms, panic attacks with chest discomfort", "Grief, inflammation of rib cartilage, nerve pain between ribs"]
+        },
+        {
+          name: "Kati Basti (Two therapists)",
+          description: "Continuous pooling of warm dosha-specific ayurvedic oil on the LOWER BACK",
+          duration: "45 mins",
+          price: "Rs. 3,500",
+          benefits: ["Lumbosacral muscle stiffness, disc prolapse", "Osteoarthritis, ligament tear, bone degeneration"]
+        },
+        {
+          name: "Janu Basti (Two therapists)",
+          description: "Continuous pooling of warm dosha-specific ayurvedic oil on the KNEES",
+          duration: "45 mins",
+          price: "Rs. 4,500",
+          benefits: ["Knee pain due to osteoarthritis", "Stiffness and crepitus"]
         }
       ]
     },
@@ -234,49 +234,42 @@ const AyurvedicServices2 = () => {
       id: "pichu",
       title: "Pichu",
       image: "/src/assets/ayurvedic-massage.jpg",
-      description: "Cotton pad soaked in medicated oil applied over specific body areas.",
+      description: "Continuous application of cotton soaked in warm medicated oil for localized treatment.",
       services: [
         {
-          name: "Shiro Pichu (two therapists)",
-          description: "Cotton pad soaked in medicated oil applied on the head",
+          name: "Pichu (Head)",
+          description: "Continuous application of cotton soaked in warm medicated oil on the HEAD",
           duration: "30 mins",
-          price: "Rs. 2500",
-          benefits: ["Alternative to Shiro Basti", "Head and scalp conditions"]
+          price: "Rs. 2,000",
+          benefits: ["Same as shiro basti", "Stress, anxiety, insomnia, burnout, depression"]
         },
         {
           name: "Griva Pichu",
-          description: "Cotton pad on the neck with warm oil",
+          description: "Continuous application of cotton soaked in warm medicated oil on the NECK",
           duration: "30 mins",
-          price: "Rs. 2000",
-          benefits: ["Alternative to Griva Basti", "Neck conditions"]
+          price: "Rs. 2,000",
+          benefits: ["Same as griva basti", "Tingling and pain in arms, vertigo due to cervical issues"]
         },
         {
           name: "Uro Pichu",
-          description: "Cotton pad on the chest with warm oil",
+          description: "Continuous application of cotton soaked in warm medicated oil on the CHEST",
           duration: "30 mins",
-          price: "Rs. 2000",
-          benefits: ["Alternative to Uro Basti", "Chest conditions"]
+          price: "Rs. 2,000",
+          benefits: ["Same as uro basti", "Heart symptoms, panic attacks with chest discomfort"]
         },
         {
           name: "Kati Pichu",
-          description: "Cotton pad on the lower back",
+          description: "Continuous application of cotton soaked in warm medicated oil on the LOWER BACK",
           duration: "30 mins",
-          price: "Rs. 2000",
-          benefits: ["Alternative to Kati Basti", "Lower back issues"]
+          price: "Rs. 2,000",
+          benefits: ["Same as kati basti", "Lumbosacral muscle stiffness, disc prolapse"]
         },
         {
-          name: "Janu Pichu (two therapists)",
-          description: "Cotton pad on the knees",
+          name: "Jaanu Pichu",
+          description: "Continuous application of cotton soaked in warm medicated oil on the KNEE",
           duration: "30 mins",
-          price: "Rs. 2500",
-          benefits: ["Alternative to Janu Basti", "Knee problems"]
-        },
-        {
-          name: "Pichu (Pain Area)",
-          description: "Cotton pad applied over specific painful area",
-          duration: "30 mins",
-          price: "Rs. 2000",
-          benefits: ["Targeted pain relief", "Localized treatment"]
+          price: "Rs. 2,500",
+          benefits: ["Same as jaanu basti", "Knee pain due to osteoarthritis, stiffness and crepitus"]
         }
       ]
     },
@@ -284,49 +277,49 @@ const AyurvedicServices2 = () => {
       id: "pinda-sweda",
       title: "Pinda Sweda – Special Kerala Massages",
       image: "/src/assets/ayurvedic-massage.jpg",
-      description: "Therapeutic massage with herbal boluses for deep healing.",
+      description: "Traditional Kerala massage with herbal boluses for therapeutic heating and deep healing.",
       services: [
         {
-          name: "Valuka Pinda Sweda",
-          description: "Dry bolus massage with sand heated in oil, reduces heaviness",
+          name: "Valuka Pinda Sweda (Two therapists)",
+          description: "Extremely dry potli treatment with sand",
           duration: "60 mins",
-          price: "Rs. 3500",
-          benefits: ["Treats rheumatoid arthritis", "Reduces joint inflammation and swelling"]
+          price: "Rs. 3,500",
+          benefits: ["Rheumatoid arthritis (pain with swelling)", "Joint inflammation with heaviness"]
         },
         {
-          name: "Choorna Pinda Sweda",
-          description: "Dry bolus massage with herbs",
+          name: "Choorna Pinda Sweda (Two therapists)",
+          description: "Dry and stimulating potli treatment with herbal powders",
           duration: "60 mins",
-          price: "Rs. 4500",
-          benefits: ["Reduces swelling and muscle stiffness"]
+          price: "Rs. 4,500",
+          benefits: ["Sciatica, spondylitis, arthritis", "Lower back pain, muscle stiffness"]
         },
         {
-          name: "Jambira Pinda Sweda",
-          description: "Massage with lemon bolus, relieves stiffness and kapha accumulation",
+          name: "Jambir Pinda Sweda (Two therapists)",
+          description: "Dry and sweat inducing potli treatment with Lemon",
           duration: "60 mins",
-          price: "Rs. 4500",
-          benefits: ["Treats dry eye syndrome", "Helps with flu and fever"]
+          price: "Rs. 4,500",
+          benefits: ["Cervical spondylitis, frozen shoulders", "Localized pain with kapha stagnation"]
         },
         {
-          name: "Patra Pinda Sweda",
-          description: "Massage with herbal leaves, relieves pain and inflammation",
+          name: "Patra Pinda Sweda (Two therapists)",
+          description: "Sweat inducing potli treatment with medicinal leaves",
           duration: "60 mins",
-          price: "Rs. 4500",
-          benefits: ["Post-surgery recovery", "Treats paralysis", "Improves skin condition"]
+          price: "Rs. 4,500",
+          benefits: ["Rheumatoid & osteo arthritis", "Lumber & cervical spondylitis, myalgia (muscle pain)"]
         },
         {
-          name: "Tapa Pinda Sweda",
-          description: "Sweat-inducing massage with herbs",
+          name: "Tila Potli Massage (Two therapists)",
+          description: "Warm and unctuous potli massage with sesame seeds immersed in ayurvedic oil",
           duration: "60 mins",
-          price: "Rs. 4500",
-          benefits: ["Deep nourishment", "Post-surgical healing"]
+          price: "Rs. 5,000",
+          benefits: ["Osteo-arthritis, sciatica, frozen shoulder", "Chronic fatigue, muscle wasting or weakness", "Post-injury, post surgery, post-paralysis, dry skin or vata prakopa"]
         },
         {
-          name: "Sarsapa Potli Massage",
-          description: "Massage with warm mustard seeds, stimulates blood circulation",
+          name: "Sarsapa Potli Massage (Two therapists)",
+          description: "Heating and stimulating potli massage with mustard seeds used dry",
           duration: "60 mins",
-          price: "Rs. 4000",
-          benefits: ["Reduces cellulite and obesity", "Improves circulation", "Treats muscle stiffness"]
+          price: "Rs. 4,000",
+          benefits: ["Stiffness, cellulite, obesity", "Muscle cramps, sluggish circulation, cold extremities"]
         }
       ]
     },
@@ -334,14 +327,14 @@ const AyurvedicServices2 = () => {
       id: "lepa",
       title: "Lepa",
       image: "/src/assets/ayurvedic-massage.jpg",
-      description: "Application of medicated paste over inflamed or painful areas.",
+      description: "Application of medicated paste made of herbs and oils for therapeutic healing.",
       services: [
         {
           name: "Upanaha Lepa",
-          description: "Application of medicated paste over inflamed or painful area, covered with leaves and cloth",
+          description: "Application of medicated paste made of herbs and oils over a painful or inflamed area, then covered with leaves or cloth and left for a specific period. (Not for open wounds and inflammation with redness)",
           duration: "30 mins",
-          price: "Rs. 2000",
-          benefits: ["Reduces inflammation", "Pain relief", "Natural healing"]
+          price: "Rs. 2,000",
+          benefits: ["Osteoarthritis, rheumatoid arthritis, cervical/lumbar spondylosis", "Frozen shoulder, low back pain, sciatica, muscle spasms", "Tennis elbow, bursitis, tendonitis, sprains, sports injuries"]
         }
       ]
     },
