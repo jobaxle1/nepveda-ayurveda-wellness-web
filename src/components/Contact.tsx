@@ -6,6 +6,15 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
+import { z } from "zod";
+
+const contactSchema = z.object({
+  name: z.string().trim().min(1, "Name is required").max(100, "Name must be less than 100 characters"),
+  email: z.string().trim().email("Invalid email address").max(255, "Email must be less than 255 characters"),
+  phone: z.string().max(20, "Phone number too long").regex(/^[0-9+\-\s()]*$/, "Invalid phone number format").optional().or(z.literal("")),
+  service: z.string().max(100).optional().or(z.literal("")),
+  message: z.string().trim().max(1000, "Message must be less than 1000 characters").optional().or(z.literal("")),
+});
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -28,14 +37,27 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Create WhatsApp message
+    const result = contactSchema.safeParse(formData);
+    if (!result.success) {
+      const firstError = result.error.errors[0];
+      toast({
+        title: "Validation Error",
+        description: firstError.message,
+        variant: "destructive",
+      });
+      return;
+    }
+
+    const validated = result.data;
+    
+    // Create WhatsApp message with validated data
     const message = `Hello, I would like to book a consultation.
     
-Name: ${formData.name}
-Email: ${formData.email}
-Phone: ${formData.phone}
-Service Interest: ${formData.service}
-Message: ${formData.message}`;
+Name: ${validated.name}
+Email: ${validated.email}
+Phone: ${validated.phone || "Not provided"}
+Service Interest: ${validated.service || "Not specified"}
+Message: ${validated.message || "No additional message"}`;
     
     const whatsappUrl = `https://wa.me/9779705002060?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
